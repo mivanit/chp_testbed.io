@@ -3,37 +3,39 @@ title: Results
 __template__: sidebar.html.jinja2
 ---
 
-Select a protocol from the sidebar to view its results.
+Lorem ipsum dolor sit amet consectetur adipiscing elit.
 
 ## Overview
 
-This section presents performance results from protocol evaluations. Results tables compare different modeling approaches against established baselines using standardized metrics defined in each protocol.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-## How Results are Generated
+## How Results Are Generated
 
-Results are computed using [TEEHR](https://rtiinternational.github.io/teehr/) (Tools for Exploratory Evaluation in Hydrologic Research), an open-source Python package designed for large-scale hydrologic model evaluation.
+Results are computed using [TEEHR](https://rtiinternational.github.io/teehr/) (Lorem Ipsum Dolor Sit Amet), consectetur adipiscing elit sed do eiusmod tempor.
 
-1. **Submission** — Contributors submit model outputs following the protocol's experimental design specifications.
-2. **Processing** — Submissions are processed to align with observational data (spatial and temporal matching).
-3. **Evaluation** — TEEHR computes the protocol's defined metrics against observations.
-4. **Publication** — Results are added to the comparison tables and made publicly available.
+1. **Submission** — Lorem ipsum dolor sit amet consectetur adipiscing elit.
+2. **Processing** — Sed do eiusmod tempor incididunt ut labore et dolore.
+3. **Evaluation** — Ut enim ad minim veniam quis nostrud exercitation.
+4. **Publication** — Duis aute irure dolor in reprehenderit in voluptate.
 
 ## Understanding the Tables
 
-Each protocol's results page includes comparison tables with:
+Each protocol results page includes comparison tables with:
 
-- **Baseline rows** (highlighted) — Reference capabilities representing operational standards
-- **Alternative rows** — Contributed innovations from the research community
-- **Metric columns** — Performance measures as defined in each protocol
+- **Baseline rows** (marked) — Lorem ipsum dolor sit amet consectetur
+- **Alternative rows** — Adipiscing elit sed eiusmod tempor incididunt
+- **Metric columns** — Ut labore et dolore magna aliqua
 
-Higher values of KGE and NSE indicate better performance. Lower values of bias metrics (rBias, RMAE) indicate better performance.
+Lorem ipsum dolor sit amet. Consectetur adipiscing elit sed do eiusmod tempor incididunt.
 
 ## Available Results
 
-| Protocol | Focus | Status |
-|----------|-------|--------|
-| [P1](./p1.html) | Daily Streamflow Simulation | Active |
-| P2 | Snow Water Equivalent | Coming Soon |
+| Protocol | Focus | Status | Results |
+|----------|-------|--------|---------|
+| P1 | Lorem Ipsum Simulatio | Active | [View Results](../protocols/p1/results.html) |
+| P2 | Consectetur Adipiscing | Planned | [View Results](../protocols/p2/results.html) |
+| P3 | Sed Eiusmod Tempor | Pending | [View Results](../protocols/p3/results.html) |
+| P4 | Ut Labore Dolore | Pending | Coming Soon |
 
 ## Submitting Results
 

@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ frontmatter.title }} - CHPT</title>
-    <link rel="stylesheet" href="../resources/css/style.css">
+    <link rel="stylesheet" href="../../resources/css/style.css">
 </head>
 <body>
     <nav class="navbar">
-        <a href="../index.html">Home</a>
-        <a href="../background.html">Background</a>
-        <a href="../protocols/index.html">Protocols</a>
-        <a href="../results/index.html">Results</a>
-        <a href="../contacts.html">Contacts</a>
+        <a href="../../index.html">Home</a>
+        <a href="../../background.html">Background</a>
+        <a href="../../protocols/index.html">Protocols</a>
+        <a href="../../results/index.html">Results</a>
+        <a href="../../contacts.html">Contacts</a>
     </nav>
 
     <div class="content-with-sidebar">
@@ -20,9 +20,16 @@
             <h3>Protocols</h3>
             {% for path, doc in docs.items() | sort %}
             {% if path.startswith('protocols/') and path.endswith('/index') and doc.frontmatter.protocol_id %}
-            <a href="../{{ doc.file_meta.path_html }}">{{ doc.frontmatter.protocol_id }} - {{ doc.frontmatter.short_title }}</a>
+            <a href="../{{ doc.file_meta.path_html | replace('protocols/', '') }}">{{ doc.frontmatter.protocol_id }} - {{ doc.frontmatter.short_title }}</a>
             {% endif %}
             {% endfor %}
+
+            {% if frontmatter.protocol_id %}
+            <h3 class="sidebar-subheading">{{ frontmatter.protocol_id }} Pages</h3>
+            <a href="./index.html">Elements</a>
+            <a href="./results.html">Results</a>
+            <a href="./analyses.html">Analyses</a>
+            {% endif %}
         </aside>
 
         <main class="main-content">

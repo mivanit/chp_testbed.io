@@ -3,33 +3,140 @@ title: Protocols
 __template__: sidebar.html.jinja2
 ---
 
-Select a protocol from the sidebar to view its details.
+Lorem ipsum dolor sit amet consectetur adipiscing elit.
 
 ## What is a Protocol?
 
-A protocol defines a standardized experimental framework for evaluating hydrologic predictions. By establishing common ground rules, protocols enable fair comparisons between different modeling approaches and ensure reproducibility of results.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
 
-Each protocol specifies:
+---
 
-- **Objective/Focus** — The specific prediction task (e.g., daily streamflow, snow water equivalent)
-- **Observational Data** — Datasets used for validation and verification
-- **Reference Capabilities** — Baseline models to compare against (e.g., NWM, RFC operational systems)
-- **Experimental Design** — Spatial domains, time periods, timesteps, and validation approaches
-- **Performance Metrics** — Quantitative measures for evaluation (KGE, NSE, bias metrics)
-- **Metadata Requirements** — Information needed to identify and track contributions
+<div class="protocol-card">
+<div class="protocol-card-header">
+<div class="protocol-card-info">
 
-## Active Protocols
+### Protocol 1 - Lorem Ipsum Simulatio
 
-```{.csv_table source="content/resources/data/protocols.csv" header=1}
-```
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+
+**Status:** <span class="badge badge-active">Active</span>
+
+[View Protocol Details](./p1/index.html){.cta-button}
+
+</div>
+<div class="protocol-card-thumb">
+<img src="../resources/data/hydrology-logo-no-text.png" alt="P1 Thumbnail">
+</div>
+</div>
+
+#### Protocol Elements
+
+| Element | Description |
+|---------|-------------|
+| **Focus/Objective** | Lorem ipsum dolor sit amet consectetur adipiscing |
+| **Observation(s)** | Lorem ipsum dolor sit amet |
+| **Reference capabilities** | Lorem RFC, NWM 3.0, NextGen NWM |
+| **Experimental design** | CAMELS-like catchment, 1999-2009 |
+| **Metrics** | KGE, NSE, rBias, RMAE |
+| **Considerations** | Computational demand, latency |
+
+</div>
+
+---
+
+<div class="protocol-card">
+<div class="protocol-card-header">
+<div class="protocol-card-info">
+
+### Protocol 2 - Consectetur Adipiscing
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.
+
+**Status:** <span class="badge badge-planned">Planned</span>
+
+</div>
+<div class="protocol-card-thumb">
+<img src="../resources/data/hydrology-logo-no-text.png" alt="P2 Thumbnail">
+</div>
+</div>
+
+#### Protocol Elements
+
+| Element | Description |
+|---------|-------------|
+| **Focus/Objective** | Lorem ipsum dolor sit amet |
+| **Observation(s)** | Placeholder |
+| **Reference capabilities** | Placeholder |
+| **Experimental design** | Placeholder |
+| **Metrics** | Placeholder |
+| **Considerations** | Placeholder |
+
+</div>
+
+---
+
+<div class="protocol-card">
+<div class="protocol-card-header">
+<div class="protocol-card-info">
+
+### Protocol 3 - Sed Eiusmod Tempor
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+**Status:** <span class="badge badge-pending">Pending</span>
+
+</div>
+<div class="protocol-card-thumb">
+<img src="../resources/data/hydrology-logo-no-text.png" alt="P3 Thumbnail">
+</div>
+</div>
+
+#### Protocol Elements
+
+| Element | Description |
+|---------|-------------|
+| **Focus/Objective** | Lorem ipsum dolor sit amet |
+| **Observation(s)** | Placeholder |
+| **Reference capabilities** | Placeholder |
+| **Experimental design** | Placeholder |
+| **Metrics** | Placeholder |
+| **Considerations** | Placeholder |
+
+</div>
+
+---
+
+<div class="protocol-card">
+<div class="protocol-card-header">
+<div class="protocol-card-info">
+
+### Protocol 4 - Ut Labore Dolore
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+**Status:** <span class="badge badge-pending">Pending</span>
+
+</div>
+<div class="protocol-card-thumb">
+<img src="../resources/data/hydrology-logo-no-text.png" alt="P4 Thumbnail">
+</div>
+</div>
+
+#### Protocol Elements
+
+| Element | Description |
+|---------|-------------|
+| **Focus/Objective** | Lorem ipsum dolor sit amet |
+| **Observation(s)** | Placeholder |
+| **Reference capabilities** | Placeholder |
+| **Experimental design** | Placeholder |
+| **Metrics** | Placeholder |
+| **Considerations** | Placeholder |
+
+</div>
+
+---
 
 ## Proposing New Protocols
 
-Have an idea for a new protocol? We welcome proposals that address important gaps in hydrologic prediction evaluation. Contact the project leads to discuss your ideas, or open an issue on GitHub.
-
-Key considerations for new protocols:
-
-- Clear scientific objective with operational relevance
-- Available observational data for validation
-- Defined baseline capabilities for comparison
-- Metrics that capture meaningful performance differences
+Lorem ipsum dolor sit amet, consectetur adipiscing elit? Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Contact project leads or open an issue on GitHub.
