@@ -1,0 +1,5 @@
+Parameter,Specification
+Spatial Domain,"CAMELS catchments (671 basins) and subsets (516 hourly gages, RFC-forecasted)"
+Validation Period,"10 years: 1990-1999"
+Timesteps,"Daily, 6-hourly, hourly"
+Validation Types,"Temporal (all basins), spatial cross-validation, spatial+temporal CV"

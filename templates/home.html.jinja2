@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ frontmatter.title }}</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="./protocols/index.html">Protocols</a>
+        <a href="./results/index.html">Results</a>
+        <a href="./contacts.html">Contacts</a>
+    </nav>
+
+    <header class="hero">
+        <img src="./resources/hydrology-logo-no-text.png" alt="CHPT Logo" class="hero-logo">
+        <h1>{{ frontmatter.title }}</h1>
+        <p class="tagline">{{ frontmatter.tagline | default("Modeling - Forecasting - Collaboration") }}</p>
+    </header>
+
+    <main class="home-content">
+        {{ __content__ | safe }}
+
+        {% if frontmatter.features %}
+        <h2>Key Features</h2>
+        <div class="feature-grid">
+        {% for feature in frontmatter.features %}
+            <div class="feature-card">
+                <h3>{{ feature.title }}</h3>
+                <p>{{ feature.desc }}</p>
+            </div>
+        {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if frontmatter.steps %}
+        <h2>How to Participate</h2>
+        <ol class="steps">
+        {% for step in frontmatter.steps %}
+            <li><strong>{{ step.title }}</strong> — {{ step.desc }}</li>
+        {% endfor %}
+        </ol>
+        {% endif %}
+    </main>
+
+    <footer class="footer">
+        <div class="partner-logos">
+            <img src="./resources/noaa_digital_logo-2022.png" alt="NOAA">
+            <img src="./resources/CIROHLogo_200x200.png" alt="CIROH">
+            <img src="./resources/Mines-Logo-triangle-blue.png" alt="Colorado School of Mines">
+        </div>
+        <div class="footer-links">
+            <a href="https://ciroh.ua.edu/">CIROH</a>
+            <a href="https://hydrology.mines.edu/">Mines Hydrology</a>
+            <a href="https://rtiinternational.github.io/teehr/">TEEHR</a>
+        </div>
+    </footer>
+</body>
+</html>

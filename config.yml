@@ -1,0 +1,10 @@
+content_dir: content
+templates_dir: templates
+output_dir: docs
+default_template: default.html.jinja2
+prettify: false
+pandoc_fmt_from: markdown+smart
+pandoc_fmt_to: html
+__pandoc__:
+  filter:
+    - csv_code_table

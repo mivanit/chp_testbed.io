@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ frontmatter.title }} - CHPT</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="./protocols/index.html">Protocols</a>
+        <a href="./results/index.html">Results</a>
+        <a href="./contacts.html">Contacts</a>
+    </nav>
+
+    {% block content %}
+    {{ __content__ | safe }}
+    {% endblock %}
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="https://ciroh.ua.edu/">CIROH</a>
+            <a href="https://hydrology.mines.edu/">Mines Hydrology</a>
+            <a href="https://rtiinternational.github.io/teehr/">TEEHR</a>
+        </div>
+    </footer>
+</body>
+</html>
