@@ -13,12 +13,10 @@ This section presents performance results from protocol evaluations. Results tab
 
 Results are computed using [TEEHR](https://rtiinternational.github.io/teehr/) (Tools for Exploratory Evaluation in Hydrologic Research), an open-source Python package designed for large-scale hydrologic model evaluation.
 
-<ol class="steps">
-<li><strong>Submission</strong> — Contributors submit model outputs following the protocol's experimental design specifications.</li>
-<li><strong>Processing</strong> — Submissions are processed to align with observational data (spatial and temporal matching).</li>
-<li><strong>Evaluation</strong> — TEEHR computes the protocol's defined metrics against observations.</li>
-<li><strong>Publication</strong> — Results are added to the comparison tables and made publicly available.</li>
-</ol>
+1. **Submission** — Contributors submit model outputs following the protocol's experimental design specifications.
+2. **Processing** — Submissions are processed to align with observational data (spatial and temporal matching).
+3. **Evaluation** — TEEHR computes the protocol's defined metrics against observations.
+4. **Publication** — Results are added to the comparison tables and made publicly available.
 
 ## Understanding the Tables
 
@@ -34,8 +32,8 @@ Higher values of KGE and NSE indicate better performance. Lower values of bias m
 
 | Protocol | Focus | Status |
 |----------|-------|--------|
-| [P1](./p1.html) | Daily Streamflow Simulation | <span class="badge badge-active">Active</span> |
-| P2 | Snow Water Equivalent | <span class="badge badge-planned">Coming Soon</span> |
+| [P1](./p1.html) | Daily Streamflow Simulation | Active |
+| P2 | Snow Water Equivalent | Coming Soon |
 
 ## Submitting Results
 

@@ -1,32 +1,20 @@
 ---
 title: Contacts
 __template__: default.html.jinja2
+team:
+  - name: Dr. Andy Wood
+    role: Project Lead
+    affiliation: Colorado School of Mines
+  - name: Dr. Chaopeng Shen
+    role: Protocol Contributor
+    affiliation: Penn State University
+  - name: Dr. Martyn Clark
+    role: Protocol Contributor
+    affiliation: University of Calgary
+  - name: Jonathan Frame
+    role: Protocol Contributor
+    affiliation: NOAA/NWS
 ---
-
-## Project Team
-
-<div class="team-grid">
-<div class="team-card">
-<h4>Dr. Andy Wood</h4>
-<div class="role">Project Lead</div>
-<div class="affiliation">Colorado School of Mines</div>
-</div>
-<div class="team-card">
-<h4>Dr. Chaopeng Shen</h4>
-<div class="role">Protocol Contributor</div>
-<div class="affiliation">Penn State University</div>
-</div>
-<div class="team-card">
-<h4>Dr. Martyn Clark</h4>
-<div class="role">Protocol Contributor</div>
-<div class="affiliation">University of Calgary</div>
-</div>
-<div class="team-card">
-<h4>Jonathan Frame</h4>
-<div class="role">Protocol Contributor</div>
-<div class="affiliation">NOAA/NWS</div>
-</div>
-</div>
 
 ## Partner Organizations
 

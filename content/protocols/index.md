@@ -20,7 +20,7 @@ Each protocol specifies:
 
 ## Active Protocols
 
-```{.csv_table source="resources/data/protocols.csv" header=1}
+```{.csv_table source="content/resources/data/protocols.csv" header=1}
 ```
 
 ## Proposing New Protocols
