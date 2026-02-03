@@ -89,7 +89,7 @@ strong {
 /* Navbar */
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     background: var(--color-primary-dark);
     padding: 0 2rem;
