@@ -1,6 +1,6 @@
 ---
-title: "Protocol 3: Sed Eiusmod Tempor"
-short_title: "sed eiusmod"
+title: "Protocol 3: Coming Soon"
+short_title: "protocol 3"
 __template__: sidebar-protocol.html.jinja2
 badge: Pending
 protocol_id: P3
@@ -9,7 +9,7 @@ protocol_id: P3
 <div class="protocol-header">
 <div class="protocol-description">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+Protocol 3 is currently under development. Details will be published when the protocol specification is finalized.
 
 **Status:** Pending
 
@@ -23,32 +23,26 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 | Element | Description |
 |---------|-------------|
-| **Focus/Objective** | Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam |
-| **Observation(s)** | Lorem ipsum dolor sit amet consectetur adipiscing elit |
-| **Reference capabilities (baselines)** | Placeholder baseline models |
-| **Experimental design** | Lorem ipsum dolor sit amet, placeholder design |
-| **Metrics of performance** | Placeholder metrics |
-| **Other considerations** | Computational demand, data availability |
-| **Key references** | Placeholder references |
-| **Contact(s)** | Placeholder contacts |
-| **Metadata** | Lorem ipsum dolor sit amet consectetur adipiscing |
+| **Focus/Objective** | To be determined |
+| **Observation(s)** | To be determined |
+| **Reference capabilities (baselines)** | To be determined |
+| **Experimental design** | To be determined |
+| **Metrics of performance** | To be determined |
+| **Other considerations** | To be determined |
+| **Key references** | To be determined |
+| **Contact(s)** | Contact project leads for information |
+| **Metadata** | Protocol details pending |
 
 ## Additional Details
 
 ### Experimental Design
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-- Parameter 1: Lorem ipsum
-- Parameter 2: Dolor sit amet
-- Parameter 3: Consectetur adipiscing
+Protocol details are under development. Check back for updates or contact the project team for more information.
 
 ### Performance Metrics
 
-- **Metric X**: Lorem ipsum dolor sit amet, consectetur adipiscing
-- **Metric Y**: Sed do eiusmod, tempor incididunt
-- **Metric Z**: Ut labore et dolore magna aliqua
+Performance metrics will be defined as part of the protocol specification process.
 
 ### Related Publications
 
-- Placeholder et al. (2025). "Sed eiusmod tempor incididunt." *Journal Name*
+Publications will be listed when the protocol is finalized.

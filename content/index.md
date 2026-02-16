@@ -1,37 +1,37 @@
 ---
-title: Lorem Ipsum Dolor Sit Amet
+title: CIROH Hydrologic Prediction Testbed
 __template__: home.html.jinja2
-tagline: Consectetur - Adipiscing - Elit
+tagline: Modeling - Forecasting - Collaboration
 features:
-  - title: Vestibulum Pretium
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  - title: Fusce Malesuada
-    desc: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  - title: Praesent Dignissim
-    desc: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  - title: Create
+    desc: Use physically-based equations and machine learning to model hydrologic variables for streamflow prediction.
+  - title: Protocols
+    desc: Share, edit, and execute standardized modeling protocols with collaborators across institutions.
+  - title: Reporting
+    desc: View charts and performance metrics based on recently tested protocols and model evaluations.
 steps:
-  - title: Primum Gradum
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.
-  - title: Secundum Gradum
-    desc: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-  - title: Tertium Gradum
-    desc: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
-  - title: Quartum Gradum
-    desc: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.
+  - title: Define Protocol
+    desc: Establish standardized benchmarks, observation datasets, and performance metrics for evaluation.
+  - title: Execute Models
+    desc: Run hydrologic simulations across defined spatial and temporal domains with consistent configurations.
+  - title: Analyze Results
+    desc: Evaluate model performance using metrics like KGE, NSE, rBias, and flow threshold statistics.
+  - title: Publish & Collaborate
+    desc: Submit successful protocols to the TEEHR protocol hub and share findings with the community.
 ---
 
-## De Testbed
+## About the Testbed
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+This project addresses challenges in hydrology by establishing standardized benchmarks and common metrics to assess and demonstrate advancements in hydrologic forecasting. We tackle issues like model irreproducibility and the impact of isolated academic findings.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The testbed is designed for quick turnaround in a forecasting loop, enabling both rapid exploratory evaluation and formal protocol-based assessments. Built by hydrologists for hydrologists.
 
-## Focus Currens
+## Current Focus
 
-Lorem ipsum dolor sit amet, **consectetur adipiscing elit** sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.
+**Protocols are the heart of the testbed.** Our current focus is Protocol 1: retrospective streamflow simulation performance across multiple verification features using CAMELS catchments.
 
-[Videre Protocollum Unum](./protocols/p1.html){.cta-button}
+[View Protocol 1](./protocols/p1.html){.cta-button}
 
-## Processus
+## The Process
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua [TEEHR](https://rtiinternational.github.io/teehr/) ut enim ad minim veniam. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Forecasting takes into account different systems and components. The [TEEHR](https://rtiinternational.github.io/teehr/) (Tools for Exploratory Evaluation in Hydrologic Research) framework powers our evaluation pipeline, enabling standardized performance assessments across diverse modeling approaches.

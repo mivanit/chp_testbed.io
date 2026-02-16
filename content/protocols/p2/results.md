@@ -1,5 +1,5 @@
 ---
-title: "Results - P2 - Consectetur Adipiscing"
+title: "Results - P2 - Coming Soon"
 __template__: sidebar-protocol.html.jinja2
 badge: Planned
 protocol_id: P2
@@ -11,29 +11,13 @@ protocol_id: P2
 
 ## Performance Metrics
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.
+Results for Protocol 2 will be available when the protocol specification is finalized and model submissions are evaluated.
 
-| Model | Metric A | Metric B | Metric C | Metric D |
-|-------|----------|----------|----------|----------|
-| Baseline 1 | 0.85 | 0.78 | 0.12 | 0.92 |
-| Baseline 2 | 0.82 | 0.75 | 0.15 | 0.88 |
-| Alternative 1 | 0.88 | 0.81 | 0.10 | 0.94 |
-| Alternative 2 | 0.86 | 0.79 | 0.11 | 0.91 |
+## Coming Soon
 
-*Lorem ipsum dolor sit amet consectetur adipiscing elit sed eiusmod.*
+- Protocol specification details
+- Performance metric definitions
+- Model comparison results
+- Analysis visualizations
 
-## Metric Definitions
-
-**Metric A** — Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-**Metric B** — Lorem ipsum dolor sit amet consectetur. Adipiscing elit sed do eiusmod tempor incididunt.
-
-**Metric C** — Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
-
-**Metric D** — Lorem ipsum dolor sit amet. Consectetur adipiscing elit sed do eiusmod.
-
-## Notes
-
-- Lorem ipsum dolor sit amet
-- Consectetur adipiscing elit sed do eiusmod tempor
-- Incididunt ut labore et dolore magna aliqua
+Check back for updates or contact the project team for more information.

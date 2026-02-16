@@ -1,5 +1,5 @@
 ---
-title: "Results - P3 - Sed Eiusmod Tempor"
+title: "Results - P3 - Coming Soon"
 __template__: sidebar-protocol.html.jinja2
 badge: Pending
 protocol_id: P3
@@ -11,29 +11,13 @@ protocol_id: P3
 
 ## Performance Metrics
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.
+Results for Protocol 3 will be available when the protocol specification is finalized and model submissions are evaluated.
 
-| Model | Metric X | Metric Y | Metric Z | Metric W |
-|-------|----------|----------|----------|----------|
-| Baseline 1 | 0.79 | 0.82 | 0.18 | 0.87 |
-| Baseline 2 | 0.76 | 0.80 | 0.21 | 0.84 |
-| Alternative 1 | 0.83 | 0.85 | 0.14 | 0.90 |
-| Alternative 2 | 0.81 | 0.83 | 0.16 | 0.88 |
+## Coming Soon
 
-*Lorem ipsum dolor sit amet consectetur adipiscing elit sed eiusmod.*
+- Protocol specification details
+- Performance metric definitions
+- Model comparison results
+- Analysis visualizations
 
-## Metric Definitions
-
-**Metric X** — Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-**Metric Y** — Lorem ipsum dolor sit amet consectetur. Adipiscing elit sed do eiusmod tempor incididunt.
-
-**Metric Z** — Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
-
-**Metric W** — Lorem ipsum dolor sit amet. Consectetur adipiscing elit sed do eiusmod.
-
-## Notes
-
-- Lorem ipsum dolor sit amet
-- Consectetur adipiscing elit sed do eiusmod tempor
-- Incididunt ut labore et dolore magna aliqua
+Check back for updates or contact the project team for more information.

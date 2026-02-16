@@ -1,65 +1,71 @@
 ---
-title: Contactus
+title: Contacts/Links
 __template__: default.html.jinja2
 team:
-  - name: Dr. Lorem Ipsum
-    role: Dux Projecti
-    affiliation: Universitas Dolor
-  - name: Dr. Consectetur Adipiscing
-    role: Contributor Protocollum
-    affiliation: Universitas Elit
-  - name: Dr. Sed Eiusmod
-    role: Contributor Protocollum
-    affiliation: Universitas Tempor
-  - name: Incididunt Labore
-    role: Contributor Protocollum
-    affiliation: Institutum Dolore
+  - name: A. Wood
+    role: Project Lead
+    affiliation: Colorado School of Mines
+  - name: J. Sturtevant
+    role: Protocol Contributor
+    affiliation: Colorado School of Mines
+  - name: C. Shen
+    role: Protocol Contributor
+    affiliation: Penn State University
+  - name: J. Frame
+    role: Protocol Contributor
+    affiliation: NOAA/NWS
+  - name: M. Clark
+    role: Protocol Contributor
+    affiliation: University of Calgary
+  - name: K. Van Werkhoven
+    role: Protocol Contributor
+    affiliation: RTI International
 ---
 
-## Socii Organizationes
+## Partner Organizations
 
-- **LOREM** — Consortium Ipsum Dolor Sit Amet Consectetur
-- **RTI Adipiscing** — Elit sed eiusmod tempor incididunt
-- **NOAA/NWS** — Ut labore et dolore magna aliqua
-- **Universitas Dolor** — Veniam Quis Nostrud Exercitation
+- **CIROH** — Cooperative Institute for Research to Operations in Hydrology (University of Alabama)
+- **RTI International** — Developers of the TEEHR evaluation framework
+- **NOAA/NWS** — National Oceanic and Atmospheric Administration / National Weather Service
+- **Colorado School of Mines** — Hydrology and Water Resources Program
 
-## Participa
+## Participate
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+We welcome contributions from the hydrologic research community. There are several ways to get involved.
 
-### Submitte Resultata
+### Submit Results
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit?
+Interested in submitting model results for protocol evaluation?
 
-1. Revide protocollum specificationes in [Protocolla](./protocols/index.html) pagina
-2. Curre modellum secundum experimentalem designem
-3. Praepara outputs in formato requisito
-4. Submitte via GitHub pull request vel email
+1. Review protocol specifications on the [Protocols](./protocols/index.html) page
+2. Run your model according to the experimental design specifications
+3. Prepare outputs in the required format (see protocol documentation)
+4. Submit via GitHub pull request or contact the protocol lead
 
-### Propone Nova Protocolla
+### Propose New Protocols
 
-Lorem ipsum dolor sit amet consectetur?
+Have an idea for a new evaluation protocol?
 
-- Identifica lacunam in currenti praedictione evaluatione
-- Defini claros objectivos, bases, et metricas
-- Contacta team projecti ad discutiendum propositum
+- Identify a gap in current prediction evaluation approaches
+- Define clear objectives, reference baselines, and performance metrics
+- Contact the project team to discuss your proposal
 
-### Contribue ad Developmentum
+### Contribute to Development
 
-Lorem ipsum dolor sit amet. Potes contribuere ad:
+Help improve the testbed infrastructure. You can contribute to:
 
-- Instrumenta evaluationis et metricas
-- Pipelines processandi data
-- Situm et documentationem
-- Definitiones protocolli
+- Evaluation tools and metrics implementations
+- Data processing pipelines
+- Website and documentation
+- Protocol definitions and specifications
 
-## Fontes
+## Resources
 
-- [TEEHR Documentatio](https://rtiinternational.github.io/teehr/) — Instrumentum evaluationis
-- [CIROH Portale](https://ciroh.ua.edu/) — Lorem ipsum et programma
-- [Mines Hydrologia](https://hydrology.mines.edu/) — Pagina investigationis
-- [CAMELS Dataset](https://ral.ucar.edu/solutions/products/camels) — Attributa et meteorologia
+- [TEEHR Documentation](https://rtiinternational.github.io/teehr/) — Tools for Exploratory Evaluation in Hydrologic Research
+- [CIROH Portal](https://ciroh.ua.edu/) — Cooperative Institute for Research to Operations in Hydrology
+- [Mines Hydrology](https://hydrology.mines.edu/) — Colorado School of Mines Hydrology Group
+- [CAMELS Dataset](https://ral.ucar.edu/solutions/products/camels) — Catchment Attributes and Meteorology for Large-sample Studies
 
-## Contactus
+## Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+For general inquiries about the testbed, protocol submissions, or collaboration opportunities, please reach out to the project team through the resources listed above or via the partner institution websites.

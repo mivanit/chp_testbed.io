@@ -3,32 +3,38 @@ title: Background
 __template__: default.html.jinja2
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The CIROH Hydrologic Prediction Testbed is a collaborative platform built by hydrologists for hydrologists, designed to advance the science of streamflow prediction through standardized evaluation protocols.
 
-## Historia
+## History
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+The testbed emerged from a recognized need within the hydrologic research community to address challenges in model evaluation and comparison. Historically, hydrologic modeling advances have been difficult to reproduce and compare due to inconsistent benchmarks, varying metrics, and isolated academic findings.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This initiative brings together researchers from multiple institutions to create a unified framework for assessing and demonstrating advancements in hydrologic forecasting, enabling both quick exploratory evaluation and formal protocol-based assessments.
 
-## Motivatio
+## Motivation
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit:
+This project addresses key challenges in hydrology:
 
-- Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-- Ut enim ad minim veniam quis nostrud exercitation ullamco laboris
-- Duis aute irure dolor in reprehenderit in voluptate velit esse
-- Excepteur sint occaecat cupidatat non proident sunt in culpa
+- Establishing standardized benchmarks for consistent model evaluation
+- Defining common metrics to assess forecasting performance objectively
+- Tackling model irreproducibility across different research groups
+- Reducing the impact of isolated academic findings that cannot be validated
+- Enabling rapid turnaround in forecasting loops for iterative improvement
 
-## Objectiva
+## Objectives
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The testbed is designed to support the hydrologic prediction community through:
 
-1. **Objectivum Primum** — Lorem ipsum dolor sit amet consectetur adipiscing elit
-2. **Objectivum Secundum** — Sed do eiusmod tempor incididunt ut labore
-3. **Objectivum Tertium** — Ut enim ad minim veniam quis nostrud exercitation
-4. **Objectivum Quartum** — Duis aute irure dolor in reprehenderit
+1. **Standardized Protocols** — Define consistent evaluation frameworks with specified observations, baselines, and metrics
+2. **Collaborative Modeling** — Enable teams to share, edit, and execute models using common infrastructure
+3. **Transparent Evaluation** — Provide reproducible performance assessments using tools like TEEHR
+4. **Knowledge Sharing** — Publish successful protocols and findings to benefit the broader community
 
-## Consortio
+## Consortium
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+The testbed is a collaborative effort supported by major institutions in hydrologic research:
+
+- **CIROH** — Cooperative Institute for Research to Operations in Hydrology (University of Alabama)
+- **RTI International** — Developers of the TEEHR evaluation framework
+- **NOAA/NWS** — National Oceanic and Atmospheric Administration / National Weather Service
+- **Colorado School of Mines** — Hydrology and Water Resources Program

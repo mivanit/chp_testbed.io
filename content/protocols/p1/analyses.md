@@ -1,5 +1,5 @@
 ---
-title: "Analyses - P1 - Lorem Ipsum Simulatio"
+title: "Analyses - P1 - Daily Streamflow Simulations"
 __template__: sidebar-protocol.html.jinja2
 badge: Active
 protocol_id: P1
@@ -9,50 +9,50 @@ protocol_id: P1
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Analysis visualizations for Protocol 1 evaluate streamflow simulation performance across CAMELS catchments using multiple diagnostic approaches.
 
 <div class="analysis-row">
 <div class="analysis-text">
 
-### Regional Performance Distribution
+### Skill by Location
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Spatial distribution of model skill across the CAMELS catchment domain. This analysis shows how model performance varies geographically, identifying regions where models perform well or poorly relative to observed streamflow.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-</div>
-<div class="analysis-image">
-<img src="../../resources/data/hydrology-logo-no-text.png" alt="Regional Performance Plot">
-</div>
-</div>
-
-<div class="analysis-row">
-<div class="analysis-text">
-
-### Seasonal Variation Analysis
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Performance is typically evaluated using KGE or NSE, with results mapped to catchment locations to reveal spatial patterns in prediction accuracy.
 
 </div>
 <div class="analysis-image">
-<img src="../../resources/data/hydrology-logo-no-text.png" alt="Seasonal Variation Plot">
+<img src="../../resources/data/hydrology-logo-no-text.png" alt="Skill by Location Plot">
 </div>
 </div>
 
 <div class="analysis-row">
 <div class="analysis-text">
 
-### Model Comparison Scatter
+### Skill by Lead Time
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+For forecast evaluations, this analysis shows how prediction skill degrades as lead time increases. Short-term forecasts typically show higher skill than longer-range predictions.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+This diagnostic helps identify the practical forecast horizon for different modeling approaches and catchment types.
 
 </div>
 <div class="analysis-image">
-<img src="../../resources/data/hydrology-logo-no-text.png" alt="Model Comparison Scatter Plot">
+<img src="../../resources/data/hydrology-logo-no-text.png" alt="Skill by Lead Time Plot">
+</div>
+</div>
+
+<div class="analysis-row">
+<div class="analysis-text">
+
+### Model Comparison
+
+Direct comparison between reference baselines (NWS RFC SAC-SMA/Snow17, NWM 3.0, Nextgen NWM) and experimental models. Scatter plots and performance distributions show relative strengths and weaknesses of each approach.
+
+Results help identify which models outperform baselines and under what conditions.
+
+</div>
+<div class="analysis-image">
+<img src="../../resources/data/hydrology-logo-no-text.png" alt="Model Comparison Plot">
 </div>
 </div>
 
@@ -61,9 +61,9 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
 
 ### Bias Distribution by Catchment
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Analysis of systematic over- or under-prediction across catchments. Relative bias (rBias) distributions reveal whether models consistently over-predict or under-predict streamflow volumes.
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Understanding bias patterns helps identify model calibration issues or structural deficiencies.
 
 </div>
 <div class="analysis-image">
@@ -76,9 +76,9 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 ### Peak Flow Timing Analysis
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+Evaluation of model performance in predicting the timing and magnitude of peak flow events. This analysis is critical for flood forecasting applications.
 
-Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Metrics include peak flow magnitude error, timing offset, and cumulative flow volume during high-flow periods.
 
 </div>
 <div class="analysis-image">
