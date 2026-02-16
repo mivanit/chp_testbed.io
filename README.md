@@ -29,6 +29,8 @@ Install dependencies:
 
 ```bash
 uv sync
+# or
+make dep
 ```
 
 ## Building the Site
@@ -53,7 +55,7 @@ title: Page Title
 __template__: sidebar.html.jinja2
 ---
 
-# Your content here
+# Your content here, in markdown format
 ```
 
 Available templates:
@@ -87,12 +89,12 @@ Note that these code blocks should use backticks ('`') in actual Markdown, singl
 
 **Parameters:**
 
-| Parameter | Description |
-|-----------|-------------|
-| `source`  | Path to CSV file (relative to project root) |
-| `header`  | First row is header: `1` (yes) or `0` (no) |
+| Parameter | Description                                                             |
+| --------- | ----------------------------------------------------------------------- |
+| `source`  | Path to CSV file (relative to project root)                             |
+| `header`  | First row is header: `1` (yes) or `0` (no)                              |
 | `aligns`  | Column alignments: `L` (left), `C` (center), `R` (right), `D` (default) |
-| `caption` | Optional table caption |
+| `caption` | Optional table caption                                                  |
 
 ### Cleaning Build Artifacts
 
