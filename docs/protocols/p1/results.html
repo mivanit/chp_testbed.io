@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Results - P1 - Lorem Ipsum Simulatio - CHPT</title>
+    <title>Results - P1 - Daily Streamflow Simulations - CHPT</title>
     <link rel="stylesheet" href="../../resources/css/style.css">
 </head>
 <body>
@@ -36,7 +36,7 @@
             
             
             
-            <a href="../p2/index.html">P2 - consectetur</a>
+            <a href="../p2/index.html">P2 - protocol 2</a>
             
             
             
@@ -44,7 +44,7 @@
             
             
             
-            <a href="../p3/index.html">P3 - sed eiusmod</a>
+            <a href="../p3/index.html">P3 - protocol 3</a>
             
             
             
@@ -61,7 +61,7 @@
         </aside>
 
         <main class="main-content">
-            <h1>Results - P1 - Lorem Ipsum Simulatio</h1>
+            <h1>Results - P1 - Daily Streamflow Simulations</h1>
 
             
             <span class="badge badge-active">Active</span>
@@ -70,8 +70,8 @@
             <p><strong>Status:</strong> Active</p>
 <hr />
 <h2 id="performance-metrics">Performance Metrics</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
-eiusmod tempor incididunt.</p>
+<p>Summary of model performance across CAMELS catchments for the
+1990-1999 validation period.</p>
 <table>
 <thead>
 <tr class="header">
@@ -85,44 +85,63 @@ eiusmod tempor incididunt.</p>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Lorem RFC SAC-SMA</td>
+<td>NWS RFC SAC-SMA/Snow17</td>
 <td>—</td>
 <td>—</td>
 <td>—</td>
 <td>—</td>
-<td>Ipsum reference</td>
+<td>Reference baseline</td>
 </tr>
 <tr class="even">
-<td>Dolor 3.0</td>
+<td>NWM 3.0 Streamflow</td>
 <td>—</td>
 <td>—</td>
 <td>—</td>
 <td>—</td>
-<td>Sit amet reference</td>
+<td>Reference baseline</td>
+</tr>
+<tr class="odd">
+<td>Nextgen NWM Default</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>Reference baseline</td>
 </tr>
 </tbody>
 </table>
-<p><em>Lorem ipsum dolor sit amet consectetur adipiscing elit sed
-eiusmod.</em></p>
+<p><em>Results shown are median values across all evaluated catchments.
+Higher KGE/NSE values indicate better performance; lower rBias/RMAE
+values indicate better performance.</em></p>
 <h2 id="metric-definitions">Metric Definitions</h2>
-<p><strong>KGE (Lorem-Ipsum Efficientia)</strong> — Lorem ipsum dolor
-sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-<p><strong>NSE (Dolor-Sit Efficientia)</strong> — Lorem ipsum dolor sit
-amet consectetur. Adipiscing elit sed do eiusmod tempor incididunt. Ut
-labore et dolore magna aliqua.</p>
-<p><strong>rBias (Relativum Bias)</strong> — Lorem ipsum dolor sit amet
-consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-labore.</p>
-<p><strong>RMAE (Relativum Medium Absolutum Error)</strong> — Lorem
-ipsum dolor sit amet. Consectetur adipiscing elit sed do eiusmod.</p>
+<p><strong>KGE (Kling-Gupta Efficiency)</strong> — A composite metric
+combining correlation, bias ratio, and variability ratio. Values range
+from -∞ to 1, where 1 indicates perfect agreement. KGE &gt; 0 indicates
+the model outperforms using the mean observed flow as a predictor. The
+modified KGE formulation is used here.</p>
+<p><strong>NSE (Nash-Sutcliffe Efficiency)</strong> — Measures how well
+the model predictions match observed variability relative to using the
+mean observation. Values range from -∞ to 1, where 1 is perfect. NSE
+&gt; 0 indicates the model is better than the mean; NSE &gt; 0.5 is
+generally considered acceptable performance.</p>
+<p><strong>rBias (Relative Bias)</strong> — The systematic over- or
+under-prediction expressed as a fraction of observed flow. Positive
+values indicate over-prediction; negative values indicate
+under-prediction. Values near 0 indicate minimal systematic bias.</p>
+<p><strong>RMAE (Relative Mean Absolute Error)</strong> — The mean
+absolute error normalized by mean observed flow. Lower values indicate
+better performance. This metric is less sensitive to outliers than
+RMSE-based metrics.</p>
 <h2 id="notes">Notes</h2>
 <ul>
-<li>Lorem ipsum dolor sit amet (1990-1999)</li>
-<li>Consectetur adipiscing elit sed do eiusmod tempor</li>
-<li>Incididunt ut labore et dolore magna aliqua</li>
-<li>Ut enim ad minim veniam quis nostrud</li>
-<li>Exercitation ullamco laboris nisi ut aliquip</li>
+<li>Validation period: January 1, 1990 through December 31, 1999</li>
+<li>Spatial domain: CAMELS catchments (516 hourly gages, RFC-forecasted
+subset)</li>
+<li>Timesteps evaluated: daily, 6-hourly, hourly</li>
+<li>Reference baselines: NWS RFC SAC-SMA/Snow17, NWM 3.0, Nextgen
+NWM</li>
+<li>Metrics expressed both in absolute terms and relative to reference
+capability</li>
 </ul>
 
 

@@ -1,3 +1,4 @@
 Model/Method,KGE,NSE,rBias,RMAE,Notes
-Lorem RFC SAC-SMA,—,—,—,—,Ipsum reference
-Dolor 3.0,—,—,—,—,Sit amet reference
+NWS RFC SAC-SMA/Snow17,—,—,—,—,Reference baseline
+NWM 3.0 Streamflow,—,—,—,—,Reference baseline
+Nextgen NWM Default,—,—,—,—,Reference baseline

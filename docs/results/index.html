@@ -36,7 +36,7 @@
             
             
             
-            <a href="../protocols/p2/index.html">P2 - consectetur</a>
+            <a href="../protocols/p2/index.html">P2 - protocol 2</a>
             
             
             
@@ -44,7 +44,7 @@
             
             
             
-            <a href="../protocols/p3/index.html">P3 - sed eiusmod</a>
+            <a href="../protocols/p3/index.html">P3 - protocol 3</a>
             
             
             
@@ -58,36 +58,42 @@
 
             
 
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+            <p>Protocol evaluation results comparing model performance against
+standardized benchmarks.</p>
 <h2 id="overview">Overview</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>Results are published for each active protocol, showing how submitted
+models perform against reference baselines across defined metrics. The
+testbed is designed for quick turnaround in a forecasting loop, enabling
+rapid iteration and improvement.</p>
 <h2 id="how-results-are-generated">How Results Are Generated</h2>
 <p>Results are computed using <a
-href="https://rtiinternational.github.io/teehr/">TEEHR</a> (Lorem Ipsum
-Dolor Sit Amet), consectetur adipiscing elit sed do eiusmod tempor.</p>
+href="https://rtiinternational.github.io/teehr/">TEEHR</a> (Tools for
+Exploratory Evaluation in Hydrologic Research), a framework developed by
+RTI International for standardized hydrologic model evaluation.</p>
 <ol type="1">
-<li><strong>Submission</strong> — Lorem ipsum dolor sit amet consectetur
-adipiscing elit.</li>
-<li><strong>Processing</strong> — Sed do eiusmod tempor incididunt ut
-labore et dolore.</li>
-<li><strong>Evaluation</strong> — Ut enim ad minim veniam quis nostrud
-exercitation.</li>
-<li><strong>Publication</strong> — Duis aute irure dolor in
-reprehenderit in voluptate.</li>
+<li><strong>Submission</strong> — Researchers submit model outputs
+following protocol specifications (spatial domain, temporal period,
+output format).</li>
+<li><strong>Processing</strong> — Outputs are aligned with observations
+and reference baselines using TEEHR pipelines.</li>
+<li><strong>Evaluation</strong> — Performance metrics (KGE, NSE, rBias,
+RMAE, etc.) are computed for each model against observations.</li>
+<li><strong>Publication</strong> — Results are published with
+comparisons to reference capabilities and other submitted models.</li>
 </ol>
 <h2 id="understanding-the-tables">Understanding the Tables</h2>
 <p>Each protocol results page includes comparison tables with:</p>
 <ul>
-<li><strong>Baseline rows</strong> (marked) — Lorem ipsum dolor sit amet
-consectetur</li>
-<li><strong>Alternative rows</strong> — Adipiscing elit sed eiusmod
-tempor incididunt</li>
-<li><strong>Metric columns</strong> — Ut labore et dolore magna
-aliqua</li>
+<li><strong>Baseline rows</strong> — Reference capabilities (e.g., NWS
+RFC SAC-SMA/Snow17, NWM 3.0) used as performance benchmarks</li>
+<li><strong>Experimental rows</strong> — Submitted models being
+evaluated against the baselines</li>
+<li><strong>Metric columns</strong> — Performance metrics defined by the
+protocol (KGE, NSE, rBias, RMAE, etc.)</li>
 </ul>
-<p>Lorem ipsum dolor sit amet. Consectetur adipiscing elit sed do
-eiusmod tempor incididunt.</p>
+<p>Higher KGE/NSE values indicate better performance. Lower rBias/RMAE
+values indicate better performance. Results are typically shown as
+median values across all evaluated catchments.</p>
 <h2 id="available-results">Available Results</h2>
 <table>
 <colgroup>
@@ -107,25 +113,25 @@ eiusmod tempor incididunt.</p>
 <tbody>
 <tr class="odd">
 <td>P1</td>
-<td>Lorem Ipsum Simulatio</td>
+<td>Daily Streamflow Simulations on CAMELS Catchments</td>
 <td>Active</td>
 <td><a href="../protocols/p1/results.html">View Results</a></td>
 </tr>
 <tr class="even">
 <td>P2</td>
-<td>Consectetur Adipiscing</td>
+<td>Coming Soon</td>
 <td>Planned</td>
 <td><a href="../protocols/p2/results.html">View Results</a></td>
 </tr>
 <tr class="odd">
 <td>P3</td>
-<td>Sed Eiusmod Tempor</td>
+<td>Coming Soon</td>
 <td>Pending</td>
 <td><a href="../protocols/p3/results.html">View Results</a></td>
 </tr>
 <tr class="even">
 <td>P4</td>
-<td>Ut Labore Dolore</td>
+<td>Coming Soon</td>
 <td>Pending</td>
 <td>Coming Soon</td>
 </tr>

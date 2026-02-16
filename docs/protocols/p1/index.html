@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protocol 1: Lorem Ipsum Simulatio - CHPT</title>
+    <title>Protocol 1: Daily Streamflow Simulations on CAMELS Catchments - CHPT</title>
     <link rel="stylesheet" href="../../resources/css/style.css">
 </head>
 <body>
@@ -36,7 +36,7 @@
             
             
             
-            <a href="../p2/index.html">P2 - consectetur</a>
+            <a href="../p2/index.html">P2 - protocol 2</a>
             
             
             
@@ -44,7 +44,7 @@
             
             
             
-            <a href="../p3/index.html">P3 - sed eiusmod</a>
+            <a href="../p3/index.html">P3 - protocol 3</a>
             
             
             
@@ -61,7 +61,7 @@
         </aside>
 
         <main class="main-content">
-            <h1>Protocol 1: Lorem Ipsum Simulatio</h1>
+            <h1>Protocol 1: Daily Streamflow Simulations on CAMELS Catchments</h1>
 
             
             <span class="badge badge-active">Active</span>
@@ -69,9 +69,10 @@
 
             <div class="protocol-header">
 <div class="protocol-description">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-minim veniam, quis nostrud exercitation ullamco laboris.</p>
+<p>Retrospective streamflow simulation performance evaluation across
+multiple verification features. This protocol establishes a standardized
+framework for assessing daily streamflow predictions using CAMELS
+catchments.</p>
 <p><strong>Status:</strong> Active</p>
 </div>
 <div class="protocol-thumbnail">
@@ -93,43 +94,47 @@ minim veniam, quis nostrud exercitation ullamco laboris.</p>
 <tbody>
 <tr class="odd">
 <td><strong>Focus/Objective</strong></td>
-<td>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
-eiusmod tempor incididunt ut labore et dolore magna aliqua</td>
+<td>Retrospective streamflow simulation performance across multiple
+verification features</td>
 </tr>
 <tr class="even">
 <td><strong>Observation(s)</strong></td>
-<td>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
-eiusmod tempor</td>
+<td>USGS gage measurements of flow at hourly/daily timesteps</td>
 </tr>
 <tr class="odd">
 <td><strong>Reference capabilities (baselines)</strong></td>
-<td>Lorem RFC SAC-SMA/Dolor17, NWM 3.0, NextGen NWM</td>
+<td>NWS RFC SAC-SMA/Snow17, NWM 3.0 streamflow forecasts, Nextgen-based
+NWM default configuration</td>
 </tr>
 <tr class="even">
 <td><strong>Experimental design</strong></td>
-<td>Lorem ipsum dolor sit amet, CAMELS-like catchment collection, Jan 1
-1999 - Dec 31 2009 evaluation period</td>
+<td>Spatial domain: CAMELS catchments (516 hourly gages,
+RFC-forecasted); Validation period: 10 years (1990-99); Timesteps:
+daily, 6-hourly, hourly</td>
 </tr>
 <tr class="odd">
 <td><strong>Metrics of performance</strong></td>
-<td>KGE, NSE, rBias, RMAE, correlation, peak flow error</td>
+<td>Modified KGE, NSE, ETS for flood thresholds, correlation, rBias,
+RMAE, peak flow magnitude/timing</td>
 </tr>
 <tr class="even">
 <td><strong>Other considerations</strong></td>
-<td>Computational demand, stability of dependencies, operational latency
-potential</td>
+<td>Computational demand, stability of dependencies, operational
+latency, documentation extent, training potential</td>
 </tr>
 <tr class="odd">
 <td><strong>Key references</strong></td>
-<td>Lorem et al. (2025), Ipsum et al. (2015)</td>
+<td>See Related Publications below</td>
 </tr>
 <tr class="even">
 <td><strong>Contact(s)</strong></td>
-<td>L. Ipsum, D. Sit, A. Consectetur</td>
+<td>J. Sturtevant, A. Wood, C. Shen, J. Frame, M. Clark, K. Van
+Werkhoven</td>
 </tr>
 <tr class="odd">
 <td><strong>Metadata</strong></td>
-<td>Lorem ipsum dolor sit amet consectetur adipiscing</td>
+<td>Institutional association and project lead, versioning, date of
+generation, parameter set/algorithm variation</td>
 </tr>
 </tbody>
 </table>
@@ -144,12 +149,11 @@ potential</td>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Lorem Domain</td>
-<td>Ipsum catchments (671 basins) et subsets (516 dolor gages,
-sit-amet)</td>
+<td>Spatial Domain</td>
+<td>CAMELS catchments (516 hourly gages, RFC-forecasted)</td>
 </tr>
 <tr class="even">
-<td>Tempor Period</td>
+<td>Validation Period</td>
 <td>10 years: 1990-1999</td>
 </tr>
 <tr class="odd">
@@ -158,31 +162,37 @@ sit-amet)</td>
 </tr>
 <tr class="even">
 <td>Validation Types</td>
-<td>Consectetur (all basins), adipiscing cross-validatio, elit+tempor
+<td>Temporal (all basins), spatial cross-validation, spatial+temporal
 CV</td>
 </tr>
 </tbody>
 </table>
 <h3 id="performance-metrics">Performance Metrics</h3>
 <ul>
-<li><strong>Characteristicae fluxus</strong>: Lorem ipsum dolor sit
-amet, consectetur adipiscing</li>
-<li><strong>Puncta peritiae</strong>: Sed do eiusmod, tempor
-incididunt</li>
-<li><strong>Metrica liminis</strong>: Ut labore et dolore magna
-aliqua</li>
-<li><strong>Metrica accuratiae</strong>: Quis nostrud, exercitation
-ullamco, laboris</li>
-<li><strong>Visualizatio</strong>: Diagrammata quadrantis
-bias/correlationis</li>
+<li><strong>Flow characteristics</strong>: Peak flow magnitude and
+timing, cumulative flow volume</li>
+<li><strong>Skill scores</strong>: Modified KGE (Kling-Gupta
+Efficiency), NSE (Nash-Sutcliffe Efficiency)</li>
+<li><strong>Threshold metrics</strong>: ETS (Equitable Threat Score) for
+flow versus defined thresholds (e.g., flood stages)</li>
+<li><strong>Accuracy metrics</strong>: Correlation, rBias (relative
+bias), RMAE (Relative Mean Absolute Error)</li>
+<li><strong>Visualization</strong>: Quadrant bias/correlation charts,
+metrics expressed relative to reference capability</li>
 </ul>
+<h3 id="validation-types">Validation Types</h3>
+<ol type="1">
+<li>Temporal validation across all basins</li>
+<li>Spatial cross-validation (CV)</li>
+<li>Combined spatial and temporal cross-validation</li>
+</ol>
 <h3 id="related-publications">Related Publications</h3>
 <ul>
-<li>Lorem et al. (2025). “<a
-href="https://egusphere.copernicus.org/preprints/2025/egusphere-2025-5514/">Benchmarking
-Lorem Ipsum Dolor Sit Amet</a>.” <em>Sed Eiusmod</em> (preprint)</li>
-<li>Ipsum et al. (2015). “Lorem ipsum dolor sit amet consectetur
-adipiscing elit.” <em>Tempor. Incididunt. Labore.</em></li>
+<li>Publications related to CAMELS dataset and streamflow
+benchmarking</li>
+<li>TEEHR framework documentation at <a
+href="https://rtiinternational.github.io/teehr/">RTI
+International</a></li>
 </ul>
 
 
