@@ -5,10 +5,6 @@ badge: Pending
 protocol_id: P4
 ---
 
-**Status:** Pending
-
----
-
 ## Analysis Types
 
 Analysis visualizations for Protocol 4 will be available when the protocol specification is finalized.

@@ -68,6 +68,20 @@
 
             {{ __content__ | safe }}
 
+            {% if frontmatter.analyses %}
+            {% for analysis in frontmatter.analyses %}
+            <div class="analysis-row">
+            <div class="analysis-text">
+            <h3>{{ analysis.title }}</h3>
+            <p>{{ analysis.description }}</p>
+            </div>
+            <div class="analysis-image">
+            <img src="{{ analysis.image }}" alt="{{ analysis.alt | default(analysis.title) }}">
+            </div>
+            </div>
+            {% endfor %}
+            {% endif %}
+
             {% if frontmatter.cards %}
             <h2>Protocol Elements</h2>
             {% for card in frontmatter.cards %}

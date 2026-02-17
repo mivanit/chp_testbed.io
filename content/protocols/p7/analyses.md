@@ -5,10 +5,6 @@ badge: Pending
 protocol_id: P7
 ---
 
-**Status:** Pending
-
----
-
 ## Analysis Types
 
 Analysis visualizations for Protocol 7 will be available when the protocol specification is finalized.

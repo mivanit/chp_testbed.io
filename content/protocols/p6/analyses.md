@@ -5,10 +5,6 @@ badge: Pending
 protocol_id: P6
 ---
 
-**Status:** Pending
-
----
-
 ## Analysis Types
 
 Analysis visualizations for Protocol 6 will be available when the protocol specification is finalized.
