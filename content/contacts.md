@@ -3,11 +3,17 @@ title: Contacts/Links
 __template__: default.html.jinja2
 team:
   - name: A. Wood
-    role: Project Lead
+    role: CHPT Lead
     affiliation: Colorado School of Mines
   - name: J. Sturtevant
     role: Protocol Contributor
     affiliation: Colorado School of Mines
+  - name: E. Ritchie
+    role: Protocol Contributor
+    affiliation: Colorado School of Mines
+  - name: R. Johnson
+    role: Protocol Contributor
+    affiliation: University of Alabama
   - name: C. Shen
     role: Protocol Contributor
     affiliation: Penn State University
@@ -28,6 +34,25 @@ team:
 - **RTI International** — Developers of the TEEHR evaluation framework
 - **NOAA/NWS** — National Oceanic and Atmospheric Administration / National Weather Service
 - **Colorado School of Mines** — Hydrology and Water Resources Program
+
+## Governance
+
+The testbed is associated with **CIROH Project 1** (led by Andy Wood, Colorado School of Mines) and is a core component of **CIROH Theme 1 — Advancing Operational Prediction**.
+
+### Engagement Mechanisms
+
+- **Quarterly Steering Group Meetings** — Leads from linked activities and CIROH RTs review testbed progress
+- **Quarterly Open Webinars** — Highlight testbed activities and engage the community (CIROH and external)
+- **CIROH Slack Testbed Channel** — Available to CIROH partners to connect with collaborators
+
+### External Coordination
+
+The testbed coordinates with:
+
+- Office of Water Prediction (OWP) and National Water Center (NWC)
+- NWS River Forecast Centers
+- World Meteorological Organization (WMO)
+- CIROH leadership and RT4 (stakeholder communication)
 
 ## Participate
 
@@ -50,6 +75,8 @@ Have an idea for a new evaluation protocol?
 - Define clear objectives, reference baselines, and performance metrics
 - Contact the project team to discuss your proposal
 
+Note: As protocols become established, they become more difficult to change without affecting the consistency of prior results.
+
 ### Contribute to Development
 
 Help improve the testbed infrastructure. You can contribute to:
@@ -69,3 +96,5 @@ Help improve the testbed infrastructure. You can contribute to:
 ## Contact
 
 For general inquiries about the testbed, protocol submissions, or collaboration opportunities, please reach out to the project team through the resources listed above or via the partner institution websites.
+
+The CHPT lead (Andy Wood) can be contacted to discuss project activities, assess feasibility of running experiments, and discuss potential protocol refinements.

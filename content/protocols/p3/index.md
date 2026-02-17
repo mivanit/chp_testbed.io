@@ -1,17 +1,17 @@
 ---
-title: "Protocol 3: Coming Soon"
-short_title: "protocol 3"
+title: "Protocol 3: Catchment Areal SWE Analysis"
+short_title: "catchment SWE"
 __template__: sidebar-protocol.html.jinja2
-badge: Pending
+badge: Planned
 protocol_id: P3
 ---
 
 <div class="protocol-header">
 <div class="protocol-description">
 
-Protocol 3 is currently under development. Details will be published when the protocol specification is finalized.
+Catchment-scale snow water equivalent (SWE) analysis and estimation performance evaluation. This protocol focuses on assessing the accuracy of catchment-integrated SWE estimates against high-resolution observational references.
 
-**Status:** Pending
+**Status:** Planned
 
 </div>
 <div class="protocol-thumbnail">
@@ -23,25 +23,45 @@ Protocol 3 is currently under development. Details will be published when the pr
 
 | Element | Description |
 |---------|-------------|
-| **Focus/Objective** | To be determined |
-| **Observation(s)** | To be determined |
+| **Focus/Objective** | Catchment areal snow water equivalent (SWE) analysis performance |
+| **Observation(s)** | SNOTEL stations, Airborne Snow Observatory (ASO) lidar flights |
 | **Reference capabilities (baselines)** | To be determined |
 | **Experimental design** | To be determined |
 | **Metrics of performance** | To be determined |
 | **Other considerations** | To be determined |
 | **Key references** | To be determined |
-| **Contact(s)** | Contact project leads for information |
+| **Contact(s)** | Andy Wood, Ethan Ritchie, Ryan Johnson |
 | **Metadata** | Protocol details pending |
 
 ## Additional Details
 
+### Observational Data Sources
+
+#### SNOTEL Stations
+
+The NRCS Snow Telemetry (SNOTEL) network provides automated snow pillow measurements of SWE at point locations throughout the western United States. These stations provide long-term, continuous SWE observations.
+
+#### Airborne Snow Observatory (ASO)
+
+ASO lidar flights provide high-resolution snow depth measurements that can be converted to SWE estimates using snow density models. ASO data provides spatially-distributed validation data for catchment-scale SWE assessment.
+
 ### Experimental Design
 
-Protocol details are under development. Check back for updates or contact the project team for more information.
+Protocol details are under development. The experimental design will specify:
+
+- Spatial domain (target catchments)
+- Validation periods
+- Required model outputs
+- Consistency requirements
 
 ### Performance Metrics
 
-Performance metrics will be defined as part of the protocol specification process.
+Performance metrics will be defined as part of the protocol specification process. Metrics will likely include:
+
+- Catchment-mean SWE bias
+- SWE timing accuracy (accumulation and melt)
+- Spatial distribution metrics
+- Volume-weighted accuracy
 
 ### Related Publications
 

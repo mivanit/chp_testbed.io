@@ -1,23 +1,35 @@
 ---
-title: "Results - P3 - Coming Soon"
+title: "Results - P3 - Catchment Areal SWE"
 __template__: sidebar-protocol.html.jinja2
-badge: Pending
+badge: Planned
 protocol_id: P3
 ---
 
-**Status:** Pending
+**Status:** Planned
 
 ---
 
 ## Performance Metrics
 
-Results for Protocol 3 will be available when the protocol specification is finalized and model submissions are evaluated.
+Performance metrics will be defined as part of the protocol specification process. Expected metrics include:
 
-## Coming Soon
+| Metric | Description |
+|--------|-------------|
+| **SWE Bias** | Mean bias in catchment-averaged SWE estimates |
+| **Peak SWE Error** | Accuracy of maximum SWE magnitude |
+| **Timing Error** | Accuracy of peak SWE date |
+| **Melt Rate** | Accuracy of snow ablation rate |
 
-- Protocol specification details
-- Performance metric definitions
-- Model comparison results
-- Analysis visualizations
+## Reference Baselines
 
-Check back for updates or contact the project team for more information.
+Reference capabilities will be determined during protocol development.
+
+## Results Summary
+
+Results from evaluated innovations will be displayed here when the protocol is finalized and submissions are processed.
+
+## Submitting Results
+
+Protocol submission guidelines will be published when the protocol specification is complete.
+
+See [Contacts](../../contacts.html) for protocol lead contact information.
