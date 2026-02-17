@@ -24,9 +24,9 @@
 
             {% if frontmatter.protocol_id %}
             <h3 class="sidebar-subheading">{{ frontmatter.protocol_id }} Pages</h3>
-            <a href="./index.html">Elements</a>
-            <a href="./results.html">Results</a>
-            <a href="./analyses.html">Analyses</a>
+            <a href="./index.html"{% if file_meta.path_html.endswith('/index.html') %} class="active"{% endif %}>Elements</a>
+            <a href="./results.html"{% if file_meta.path_html.endswith('/results.html') %} class="active"{% endif %}>Results</a>
+            <a href="./analyses.html"{% if file_meta.path_html.endswith('/analyses.html') %} class="active"{% endif %}>Analyses</a>
             {% endif %}
         </aside>
 
