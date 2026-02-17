@@ -18,7 +18,7 @@
             <h3>Protocols</h3>
             {% for path, doc in docs.items() | sort %}
             {% if path.startswith('protocols/') and path.endswith('/index') and doc.frontmatter.protocol_id %}
-            <a href="../{{ doc.file_meta.path_html | replace('protocols/', '') }}">{{ doc.frontmatter.protocol_id }} - {{ doc.frontmatter.short_title }}</a>
+            <a href="../{{ doc.file_meta.path_html | replace('protocols/', '') }}"{% if frontmatter.protocol_id == doc.frontmatter.protocol_id %} class="active"{% endif %}>{{ doc.frontmatter.protocol_id }} - {{ doc.frontmatter.short_title }}</a>
             {% endif %}
             {% endfor %}
 
@@ -35,6 +35,35 @@
 
             {% if frontmatter.badge %}
             <span class="badge badge-{{ frontmatter.badge | lower }}">{{ frontmatter.badge }}</span>
+            {% endif %}
+
+            {% if frontmatter.description %}
+            <div class="protocol-header">
+            <div class="protocol-description">
+            <p>{{ frontmatter.description }}</p>
+            <p><strong>Status:</strong> {{ frontmatter.badge }}</p>
+            </div>
+            <div class="protocol-thumbnail">
+            <img src="../../resources/data/hydrology-logo-no-text.png" alt="{{ frontmatter.protocol_id }} Thumbnail">
+            </div>
+            </div>
+            {% endif %}
+
+            {% if frontmatter.elements %}
+            <h2>Protocol Elements</h2>
+
+            <table>
+            <tr><th>Element</th><th>Description</th></tr>
+            <tr><td><strong>Focus/Objective</strong></td><td>{{ frontmatter.elements.focus }}</td></tr>
+            <tr><td><strong>Observation(s)</strong></td><td>{{ frontmatter.elements.observations }}</td></tr>
+            <tr><td><strong>Reference capabilities (baselines)</strong></td><td>{{ frontmatter.elements.baselines }}</td></tr>
+            <tr><td><strong>Experimental design</strong></td><td>{{ frontmatter.elements.design }}</td></tr>
+            <tr><td><strong>Metrics of performance</strong></td><td>{{ frontmatter.elements.metrics }}</td></tr>
+            {% if frontmatter.elements.considerations %}<tr><td><strong>Other considerations</strong></td><td>{{ frontmatter.elements.considerations }}</td></tr>{% endif %}
+            {% if frontmatter.elements.references %}<tr><td><strong>Key references</strong></td><td>{{ frontmatter.elements.references }}</td></tr>{% endif %}
+            {% if frontmatter.elements.contacts %}<tr><td><strong>Contact(s)</strong></td><td>{{ frontmatter.elements.contacts }}</td></tr>{% endif %}
+            {% if frontmatter.elements.metadata %}<tr><td><strong>Metadata</strong></td><td>{{ frontmatter.elements.metadata }}</td></tr>{% endif %}
+            </table>
             {% endif %}
 
             {{ __content__ | safe }}

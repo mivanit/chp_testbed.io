@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ frontmatter.title }} - CHPT</title>
+    <link rel="stylesheet" href="../resources/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="../protocols/index.html">Protocols</a>
+        <a href="../contacts.html">Contacts/Links</a>
+    </nav>
+
+    <div class="content-with-sidebar">
+        <aside class="sidebar">
+            <h3>Protocols</h3>
+            {% for path, doc in docs.items() | sort %}
+            {% if path.startswith('protocols/') and path.endswith('/index') and doc.frontmatter.protocol_id %}
+            <a href="../{{ doc.file_meta.path_html }}">{{ doc.frontmatter.protocol_id }} - {{ doc.frontmatter.short_title }}</a>
+            {% endif %}
+            {% endfor %}
+        </aside>
+
+        <main class="main-content">
+            <h1>{{ frontmatter.title }}</h1>
+
+            {{ __content__ | safe }}
+
+            {% for path, doc in docs.items() | sort %}
+            {% if path.startswith('protocols/') and path.endswith('/index') and doc.frontmatter.protocol_id %}
+            <hr>
+
+            <div class="protocol-card">
+            <div class="protocol-card-header">
+            <div class="protocol-card-info">
+
+            <h3>{{ doc.frontmatter.title }}</h3>
+
+            <p>{{ doc.frontmatter.description }}</p>
+
+            <p><strong>Status:</strong> <span class="badge badge-{{ doc.frontmatter.badge | lower }}">{{ doc.frontmatter.badge }}</span></p>
+
+            <p><a href="./{{ doc.frontmatter.protocol_id | lower }}/index.html" class="cta-button">View Protocol Details</a></p>
+
+            </div>
+            <div class="protocol-card-thumb">
+            <img src="../resources/data/hydrology-logo-no-text.png" alt="{{ doc.frontmatter.protocol_id }} Thumbnail">
+            </div>
+            </div>
+
+            {% if doc.frontmatter.elements %}
+            <h4>Protocol Elements</h4>
+
+            <table>
+            <tr><th>Element</th><th>Description</th></tr>
+            <tr><td><strong>Focus/Objective</strong></td><td>{{ doc.frontmatter.elements.focus }}</td></tr>
+            <tr><td><strong>Observation(s)</strong></td><td>{{ doc.frontmatter.elements.observations }}</td></tr>
+            <tr><td><strong>Reference capabilities</strong></td><td>{{ doc.frontmatter.elements.baselines }}</td></tr>
+            <tr><td><strong>Experimental design</strong></td><td>{{ doc.frontmatter.elements.design }}</td></tr>
+            <tr><td><strong>Metrics</strong></td><td>{{ doc.frontmatter.elements.metrics }}</td></tr>
+            </table>
+            {% endif %}
+
+            </div>
+            {% endif %}
+            {% endfor %}
+
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="https://ciroh.ua.edu/">CIROH</a>
+            <a href="https://hydrology.mines.edu/">Mines Hydrology</a>
+            <a href="https://rtiinternational.github.io/teehr/">TEEHR</a>
+        </div>
+    </footer>
+</body>
+</html>

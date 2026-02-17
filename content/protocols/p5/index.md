@@ -4,34 +4,19 @@ short_title: "seasonal climate"
 __template__: sidebar-protocol.html.jinja2
 badge: Planned
 protocol_id: P5
+description: "Seasonal (month 2-10) basin-scale precipitation and temperature forecast performance evaluation. This protocol focuses on assessing seasonal climate predictions at hydrologically-relevant spatial scales."
+
+elements:
+  focus: "Seasonal (month 2-11) climate forecast performance at HUC4 basin-scale for temperature (T) and precipitation (P)"
+  observations: "ERA5-Land"
+  baselines: "NOAA CPC seasonal outlooks, NMME models"
+  design: "To be determined"
+  metrics: "CRPSS (probabilistic), ACC (deterministic)"
+  considerations: "To be determined"
+  references: "To be determined"
+  contacts: "Andy Wood, Josh Sturtevant"
+  metadata: "Protocol details pending"
 ---
-
-<div class="protocol-header">
-<div class="protocol-description">
-
-Seasonal (month 2-10) basin-scale precipitation and temperature forecast performance evaluation. This protocol focuses on assessing seasonal climate predictions at hydrologically-relevant spatial scales.
-
-**Status:** Planned
-
-</div>
-<div class="protocol-thumbnail">
-<img src="../../resources/data/hydrology-logo-no-text.png" alt="Protocol 5 Thumbnail">
-</div>
-</div>
-
-## Protocol Elements
-
-| Element | Description |
-|---------|-------------|
-| **Focus/Objective** | Seasonal (month 2-11) climate forecast performance at HUC4 basin-scale for temperature (T) and precipitation (P) |
-| **Observation(s)** | ERA5-Land |
-| **Reference capabilities (baselines)** | NOAA CPC seasonal outlooks, NMME models |
-| **Experimental design** | To be determined |
-| **Metrics of performance** | CRPSS (probabilistic), ACC (deterministic) |
-| **Other considerations** | To be determined |
-| **Key references** | To be determined |
-| **Contact(s)** | Andy Wood, Josh Sturtevant |
-| **Metadata** | Protocol details pending |
 
 ## Additional Details
 

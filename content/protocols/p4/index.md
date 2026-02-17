@@ -4,34 +4,19 @@ short_title: "water supply"
 __template__: sidebar-protocol.html.jinja2
 badge: Pending
 protocol_id: P4
+description: "Seasonal volumetric water supply forecast performance evaluation. This protocol focuses on assessing the accuracy of seasonal runoff volume predictions used for water management and allocation decisions."
+
+elements:
+  focus: "Seasonal water supply forecast performance"
+  observations: "To be determined"
+  baselines: "NOAA RFC volumetric water supply forecasts"
+  design: "To be determined"
+  metrics: "To be determined"
+  considerations: "To be determined"
+  references: "To be determined"
+  contacts: "To be determined"
+  metadata: "Protocol details pending"
 ---
-
-<div class="protocol-header">
-<div class="protocol-description">
-
-Seasonal volumetric water supply forecast performance evaluation. This protocol focuses on assessing the accuracy of seasonal runoff volume predictions used for water management and allocation decisions.
-
-**Status:** Pending
-
-</div>
-<div class="protocol-thumbnail">
-<img src="../../resources/data/hydrology-logo-no-text.png" alt="Protocol 4 Thumbnail">
-</div>
-</div>
-
-## Protocol Elements
-
-| Element | Description |
-|---------|-------------|
-| **Focus/Objective** | Seasonal water supply forecast performance |
-| **Observation(s)** | To be determined |
-| **Reference capabilities (baselines)** | NOAA RFC volumetric water supply forecasts |
-| **Experimental design** | To be determined |
-| **Metrics of performance** | To be determined |
-| **Other considerations** | To be determined |
-| **Key references** | To be determined |
-| **Contact(s)** | To be determined |
-| **Metadata** | Protocol details pending |
 
 ## Additional Details
 

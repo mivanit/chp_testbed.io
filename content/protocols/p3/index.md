@@ -4,34 +4,19 @@ short_title: "catchment SWE"
 __template__: sidebar-protocol.html.jinja2
 badge: Planned
 protocol_id: P3
+description: "Catchment-scale snow water equivalent (SWE) analysis and estimation performance evaluation. This protocol focuses on assessing the accuracy of catchment-integrated SWE estimates against high-resolution observational references."
+
+elements:
+  focus: "Catchment areal snow water equivalent (SWE) analysis performance"
+  observations: "SNOTEL stations, Airborne Snow Observatory (ASO) lidar flights"
+  baselines: "To be determined"
+  design: "To be determined"
+  metrics: "To be determined"
+  considerations: "To be determined"
+  references: "To be determined"
+  contacts: "Andy Wood, Ethan Ritchie, Ryan Johnson"
+  metadata: "Protocol details pending"
 ---
-
-<div class="protocol-header">
-<div class="protocol-description">
-
-Catchment-scale snow water equivalent (SWE) analysis and estimation performance evaluation. This protocol focuses on assessing the accuracy of catchment-integrated SWE estimates against high-resolution observational references.
-
-**Status:** Planned
-
-</div>
-<div class="protocol-thumbnail">
-<img src="../../resources/data/hydrology-logo-no-text.png" alt="Protocol 3 Thumbnail">
-</div>
-</div>
-
-## Protocol Elements
-
-| Element | Description |
-|---------|-------------|
-| **Focus/Objective** | Catchment areal snow water equivalent (SWE) analysis performance |
-| **Observation(s)** | SNOTEL stations, Airborne Snow Observatory (ASO) lidar flights |
-| **Reference capabilities (baselines)** | To be determined |
-| **Experimental design** | To be determined |
-| **Metrics of performance** | To be determined |
-| **Other considerations** | To be determined |
-| **Key references** | To be determined |
-| **Contact(s)** | Andy Wood, Ethan Ritchie, Ryan Johnson |
-| **Metadata** | Protocol details pending |
 
 ## Additional Details
 

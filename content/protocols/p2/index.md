@@ -4,34 +4,19 @@ short_title: "1-7 day forecasting"
 __template__: sidebar-protocol.html.jinja2
 badge: Active
 protocol_id: P2
+description: "Short-range (1-7 day) streamflow forecast performance evaluation across multiple verification features in headwater catchments. This protocol establishes a standardized framework for assessing operational forecast skill against multiple reference capabilities."
+
+elements:
+  focus: "Short-range (1-7 day) streamflow forecast performance across multiple verification features"
+  observations: "Point gage measurements of flow at hourly and daily timesteps"
+  baselines: "RFC streamflow forecasts, NWM 3.0 streamflow forecasts, NextGen-based NWM default short-range configuration, Persistence forecast"
+  design: "CAMELS subset + RFC headwater catchments, 2017-2022, 1-7 day leads"
+  metrics: "Peak flow magnitude/timing, modified KGE, cumulative volume, CRPS (ensemble), ETS for flood thresholds"
+  considerations: "Computational demand, dependency stability, operational latency, documentation extent, forecaster training potential, proprietary dependencies"
+  references: "Cosgrove et al. 2022 (NWM), McEnery et al. 2005 (AHPS)"
+  contacts: "Andy Wood, Josh Sturtevant"
+  metadata: "Version, algorithm variation, parameter set, generation date, author"
 ---
-
-<div class="protocol-header">
-<div class="protocol-description">
-
-Short-range (1-7 day) streamflow forecast performance evaluation across multiple verification features in headwater catchments. This protocol establishes a standardized framework for assessing operational forecast skill against multiple reference capabilities.
-
-**Status:** Active
-
-</div>
-<div class="protocol-thumbnail">
-<img src="../../resources/data/hydrology-logo-no-text.png" alt="Protocol 2 Thumbnail">
-</div>
-</div>
-
-## Protocol Elements
-
-| Element | Description |
-|---------|-------------|
-| **Focus/Objective** | Short-range (1-7 day) streamflow forecast performance across multiple verification features |
-| **Observation(s)** | Point gage measurements of flow at hourly and daily timesteps |
-| **Reference capabilities (baselines)** | RFC streamflow forecasts, NWM 3.0 streamflow forecasts, NextGen-based NWM default short-range configuration, Persistence forecast |
-| **Experimental design** | CAMELS subset + RFC headwater catchments, 2017-2022, 1-7 day leads (see details below) |
-| **Metrics of performance** | Peak flow magnitude/timing, modified KGE, cumulative volume, CRPS (ensemble), ETS for flood thresholds |
-| **Other considerations** | Computational demand, dependency stability, operational latency, documentation extent, forecaster training potential, proprietary dependencies |
-| **Key references** | Cosgrove et al. 2022 (NWM), McEnery et al. 2005 (AHPS) |
-| **Contact(s)** | Andy Wood, Josh Sturtevant |
-| **Metadata** | Version, algorithm variation, parameter set, generation date, author |
 
 ## Additional Details
 
