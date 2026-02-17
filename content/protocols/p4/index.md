@@ -24,6 +24,10 @@ elements:
 
 Water supply forecasts (WSFs) provide predictions of seasonal runoff volumes that are critical for water management, reservoir operations, and allocation decisions. These forecasts are typically issued for the April-July or similar seasonal periods in snowmelt-dominated basins.
 
+![Example NOAA-CBRFC water supply forecast](../../resources/data/wsf-example.png)
+
+*Example NOAA-CBRFC water supply forecast (WSF) for the Colorado River at Dotsero, Colorado. NOAA-RFC volumetric WSFs will serve as a reference capability against which to benchmark new innovations.*
+
 ### Reference Capabilities
 
 NOAA River Forecast Center (RFC) volumetric water supply forecasts will serve as a reference capability against which to benchmark new innovations.

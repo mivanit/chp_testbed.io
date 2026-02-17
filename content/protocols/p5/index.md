@@ -31,6 +31,14 @@ The following baseline systems will be used for comparison:
 1. **NOAA CPC** - Climate Prediction Center seasonal outlooks
 2. **NMME** - North American Multi-Model Ensemble seasonal forecasts
 
+![NOAA CPC seasonal outlook](../../resources/data/cpc-outlook-example.png)
+
+*Example NOAA Climate Prediction Center (CPC) seasonal outlooks for temperature (left) and precipitation (right). NOAA CPC seasonal climate forecasts will serve as a reference capability against which to benchmark new innovations.*
+
+![NMME seasonal forecast](../../resources/data/nmme-forecast-example.png)
+
+*Example NMME forecast for seasonal air temperature anomaly. NMME seasonal climate forecasts will serve as a secondary reference capability.*
+
 ### Observations
 
 ERA5-Land reanalysis will serve as the verification dataset for evaluating forecast accuracy.
