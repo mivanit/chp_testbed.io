@@ -38,7 +38,7 @@ The following baseline systems are used for comparison:
 3. **NextGen NWM** - NextGen-based NWM default short-range configuration
 4. **Persistence Forecast** - Simple persistence baseline
 
-![Example short-range streamflow forecast from NOAA SERFC](../../resources/data/rfc-forecast-example.png)
+![Example short-range streamflow forecast from NOAA SERFC]({{ file_meta.path_to_root }}/resources/data/rfc-forecast-example.png)
 
 *Example short-range streamflow forecast from NOAA's Southeast River Forecast Center (SERFC). NOAA-RFC forecasts serve as a reference capability against which to benchmark new innovations.*
 

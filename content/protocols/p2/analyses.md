@@ -7,27 +7,27 @@ protocol_id: P2
 analyses:
   - title: "Skill by Lead Time"
     description: "Performance metrics (KGE, CRPS, ETS) plotted against forecast lead time (1-7 days) to assess how skill degrades with increasing lead time across different forecasting systems."
-    image: "../../resources/data/hydrology-logo-no-text.png"
+    image: "resources/data/hydrology-logo-no-text.png"
     alt: "Skill by Lead Time Analysis"
 
   - title: "Skill by Location"
     description: "Spatial distribution of forecast performance across the CAMELS and RFC headwater catchment network, identifying regions of stronger or weaker forecast skill."
-    image: "../../resources/data/hydrology-logo-no-text.png"
+    image: "resources/data/hydrology-logo-no-text.png"
     alt: "Skill by Location Analysis"
 
   - title: "Model Comparison"
     description: "Side-by-side comparison of innovations against reference capabilities (RFC, NWM 3.0, NextGen NWM, persistence) using consistent metrics and validation periods."
-    image: "../../resources/data/hydrology-logo-no-text.png"
+    image: "resources/data/hydrology-logo-no-text.png"
     alt: "Model Comparison Analysis"
 
   - title: "Peak Flow Analysis"
     description: "Evaluation of peak flow magnitude and timing accuracy, critical for flood forecasting applications."
-    image: "../../resources/data/hydrology-logo-no-text.png"
+    image: "resources/data/hydrology-logo-no-text.png"
     alt: "Peak Flow Analysis"
 
   - title: "Volume Accuracy"
     description: "Cumulative flow volume accuracy at each lead time (days 1-7) for water management applications."
-    image: "../../resources/data/hydrology-logo-no-text.png"
+    image: "resources/data/hydrology-logo-no-text.png"
     alt: "Volume Accuracy Analysis"
 ---
 

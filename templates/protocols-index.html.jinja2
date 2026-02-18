@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ frontmatter.title }} - CHPT</title>
-    <link rel="stylesheet" href="../resources/css/style.css">
+    <link rel="stylesheet" href="{{ file_meta.path_to_root }}/resources/css/style.css">
 </head>
 <body>
     <nav class="navbar">
-        <a href="../index.html">Home</a>
-        <a href="../protocols/index.html">Protocols</a>
-        <a href="../contacts.html">Contacts/Links</a>
+        <a href="{{ file_meta.path_to_root }}/index.html">Home</a>
+        <a href="{{ file_meta.path_to_root }}/protocols/index.html">Protocols</a>
+        <a href="{{ file_meta.path_to_root }}/contacts.html">Contacts/Links</a>
     </nav>
 
     <div class="content-with-sidebar">
@@ -18,7 +18,7 @@
             <h3>Protocols</h3>
             {% for path, doc in docs.items() | sort %}
             {% if path.startswith('protocols/') and path.endswith('/index') and doc.frontmatter.protocol_id %}
-            <a href="../{{ doc.file_meta.path_html }}">{{ doc.frontmatter.protocol_id }} - {{ doc.frontmatter.short_title }}</a>
+            <a href="{{ file_meta.path_to_root }}/{{ doc.file_meta.path_html }}">{{ doc.frontmatter.protocol_id }} - {{ doc.frontmatter.short_title }}</a>
             {% endif %}
             {% endfor %}
         </aside>
@@ -46,7 +46,7 @@
 
             </div>
             <div class="protocol-card-thumb">
-            <img src="../resources/data/hydrology-logo-no-text.png" alt="{{ doc.frontmatter.protocol_id }} Thumbnail">
+            <img src="{{ file_meta.path_to_root }}/resources/data/hydrology-logo-no-text.png" alt="{{ doc.frontmatter.protocol_id }} Thumbnail">
             </div>
             </div>
 

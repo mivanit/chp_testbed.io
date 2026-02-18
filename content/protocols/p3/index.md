@@ -30,7 +30,7 @@ The NRCS Snow Telemetry (SNOTEL) network provides automated snow pillow measurem
 
 ASO lidar flights provide high-resolution snow depth measurements that can be converted to SWE estimates using snow density models. ASO data provides spatially-distributed validation data for catchment-scale SWE assessment.
 
-![Example modeled SWE from NOAA NOHRSC](../../resources/data/swe-map-example.png)
+![Example modeled SWE from NOAA NOHRSC]({{ file_meta.path_to_root }}/resources/data/swe-map-example.png)
 
 *Example modeled snow water equivalent (SWE) from NOAA's National Operational Hydrologic Remote Sensing Center (NOHRSC). NOHRSC simulated snowpack will serve as a reference capability against which to benchmark new innovations.*
 

@@ -24,7 +24,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "pdj-sitegen", specifier = ">=0.0.4" }]
+requires-dist = [{ name = "pdj-sitegen", specifier = ">=0.0.7" }]
 
 [[package]]
 name = "colorama"
@@ -130,7 +130,7 @@ wheels = [
 
 [[package]]
 name = "pdj-sitegen"
-version = "0.0.4"
+version = "0.0.7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beautifulsoup4" },
@@ -141,9 +141,9 @@ dependencies = [
     { name = "pyyaml" },
     { name = "tqdm" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/bb/ad/daff757d790d760c83aabd494c3a389cb7e5312bc98687a007399c989fde/pdj_sitegen-0.0.4.tar.gz", hash = "sha256:979644fe1021e50012c9571ca18d0e68baaf28a6d7a4ac274b415d2042a8388d", size = 31359, upload-time = "2026-01-28T07:32:56.232Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/89/ff/189f4cb3b9ef37fd4fbd1b83891f86f8073a535900b4a44c3d8845821f90/pdj_sitegen-0.0.7.tar.gz", hash = "sha256:e04709a7015c4554b80b1c92d2a5881308b76493d4aa7a0e67f53bbbf6df6758", size = 40781, upload-time = "2026-02-09T04:55:31.784Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0f/ea/f580b4827319df04222075c8417b3a2eb19619093e30a42a7b85f6a5fb9c/pdj_sitegen-0.0.4-py3-none-any.whl", hash = "sha256:938df5b57631e551f51f8e8fa4ba14378e750ab63ad724c3f59ba3666883b474", size = 35313, upload-time = "2026-01-28T07:32:54.675Z" },
+    { url = "https://files.pythonhosted.org/packages/61/cb/64e9e1815d792275b9ccee7ba4eceb62fddccab1a88cf723464cd994da2f/pdj_sitegen-0.0.7-py3-none-any.whl", hash = "sha256:ca1be63cfa347359a5340566aa2c8b6d17a4719a6cae35d31a5413e9ac415f18", size = 46523, upload-time = "2026-02-09T04:55:30.087Z" },
 ]
 
 [[package]]

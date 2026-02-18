@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ frontmatter.title }} - CHPT</title>
-    <link rel="stylesheet" href="../../resources/css/style.css">
+    <link rel="stylesheet" href="{{ file_meta.path_to_root }}/resources/css/style.css">
 </head>
 <body>
     <nav class="navbar">
-        <a href="../../index.html">Home</a>
-        <a href="../../protocols/index.html">Protocols</a>
-        <a href="../../contacts.html">Contacts/Links</a>
+        <a href="{{ file_meta.path_to_root }}/index.html">Home</a>
+        <a href="{{ file_meta.path_to_root }}/protocols/index.html">Protocols</a>
+        <a href="{{ file_meta.path_to_root }}/contacts.html">Contacts/Links</a>
     </nav>
 
     <div class="content-with-sidebar">
@@ -18,7 +18,7 @@
             <h3>Protocols</h3>
             {% for path, doc in docs.items() | sort %}
             {% if path.startswith('protocols/') and path.endswith('/index') and doc.frontmatter.protocol_id %}
-            <a href="../{{ doc.file_meta.path_html | replace('protocols/', '') }}"{% if frontmatter.protocol_id == doc.frontmatter.protocol_id %} class="active"{% endif %}>{{ doc.frontmatter.protocol_id }} - {{ doc.frontmatter.short_title }}</a>
+            <a href="{{ file_meta.path_to_root }}/{{ doc.file_meta.path_html }}"{% if frontmatter.protocol_id == doc.frontmatter.protocol_id %} class="active"{% endif %}>{{ doc.frontmatter.protocol_id }} - {{ doc.frontmatter.short_title }}</a>
             {% endif %}
             {% endfor %}
 
@@ -44,7 +44,7 @@
             <p><strong>Status:</strong> {{ frontmatter.badge }}</p>
             </div>
             <div class="protocol-thumbnail">
-            <img src="../../resources/data/hydrology-logo-no-text.png" alt="{{ frontmatter.protocol_id }} Thumbnail">
+            <img src="{{ file_meta.path_to_root }}/resources/data/hydrology-logo-no-text.png" alt="{{ frontmatter.protocol_id }} Thumbnail">
             </div>
             </div>
             {% endif %}
@@ -76,7 +76,7 @@
             <p>{{ analysis.description }}</p>
             </div>
             <div class="analysis-image">
-            <img src="{{ analysis.image }}" alt="{{ analysis.alt | default(analysis.title) }}">
+            <img src="{{ file_meta.path_to_root }}/{{ analysis.image }}" alt="{{ analysis.alt | default(analysis.title) }}">
             </div>
             </div>
             {% endfor %}

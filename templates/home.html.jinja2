@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ frontmatter.title }}</title>
-    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="{{ file_meta.path_to_root }}/resources/css/style.css">
 </head>
 <body>
     <nav class="navbar">
-        <a href="./index.html">Home</a>
-        <a href="./protocols/index.html">Protocols</a>
-        <a href="./contacts.html">Contacts/Links</a>
+        <a href="{{ file_meta.path_to_root }}/index.html">Home</a>
+        <a href="{{ file_meta.path_to_root }}/protocols/index.html">Protocols</a>
+        <a href="{{ file_meta.path_to_root }}/contacts.html">Contacts/Links</a>
     </nav>
 
     <header class="hero">
-        <img src="./resources/hydrology-logo-no-text.png" alt="CHPT Logo" class="hero-logo">
+        <img src="{{ file_meta.path_to_root }}/resources/hydrology-logo-no-text.png" alt="CHPT Logo" class="hero-logo">
         <h1>{{ frontmatter.title }}</h1>
         <p class="tagline">{{ frontmatter.tagline | default("Modeling - Forecasting - Collaboration") }}</p>
     </header>
@@ -46,9 +46,9 @@
 
     <footer class="footer">
         <div class="partner-logos">
-            <img src="./resources/noaa_digital_logo-2022.png" alt="NOAA">
-            <img src="./resources/CIROHLogo_200x200.png" alt="CIROH">
-            <img src="./resources/Mines-Logo-triangle-blue.png" alt="Colorado School of Mines">
+            <img src="{{ file_meta.path_to_root }}/resources/noaa_digital_logo-2022.png" alt="NOAA">
+            <img src="{{ file_meta.path_to_root }}/resources/CIROHLogo_200x200.png" alt="CIROH">
+            <img src="{{ file_meta.path_to_root }}/resources/Mines-Logo-triangle-blue.png" alt="Colorado School of Mines">
         </div>
         <div class="footer-links">
             <a href="https://ciroh.ua.edu/">CIROH</a>
