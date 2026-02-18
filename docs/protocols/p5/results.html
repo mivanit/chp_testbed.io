@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Results - P3 - Catchment Areal SWE - CHPT</title>
+    <title>Results - P5 - Seasonal Climate Prediction - CHPT</title>
     <link rel="stylesheet" href="../../resources/css/style.css">
 </head>
 <body>
@@ -44,7 +44,7 @@
             
             
             
-            <a href="../../protocols/p3/index.html" class="active">P3 - catchment SWE</a>
+            <a href="../../protocols/p3/index.html">P3 - catchment SWE</a>
             
             
             
@@ -60,7 +60,7 @@
             
             
             
-            <a href="../../protocols/p5/index.html">P5 - seasonal climate</a>
+            <a href="../../protocols/p5/index.html" class="active">P5 - seasonal climate</a>
             
             
             
@@ -85,7 +85,7 @@
             
 
             
-            <h3 class="sidebar-subheading">P3 Pages</h3>
+            <h3 class="sidebar-subheading">P5 Pages</h3>
             <a href="./index.html">Elements</a>
             <a href="./results.html" class="active">Results</a>
             <a href="./analyses.html">Analyses</a>
@@ -93,7 +93,7 @@
         </aside>
 
         <main class="main-content">
-            <h1>Results - P3 - Catchment Areal SWE</h1>
+            <h1>Results - P5 - Seasonal Climate Prediction</h1>
 
             
             <span class="badge badge-planned">Planned</span>
@@ -106,37 +106,54 @@
             <p><strong>Status:</strong> Planned</p>
 <hr />
 <h2 id="performance-metrics">Performance Metrics</h2>
-<p>Performance metrics will be defined as part of the protocol
-specification process. Expected metrics include:</p>
+<p>Results are evaluated using the following metrics:</p>
 <table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 38%" />
+<col style="width: 38%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th>Metric</th>
+<th>Description</th>
+<th>Application</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>CRPSS</strong></td>
+<td>Continuous Ranked Probability Skill Score</td>
+<td>Probabilistic forecast skill</td>
+</tr>
+<tr class="even">
+<td><strong>ACC</strong></td>
+<td>Anomaly Correlation Coefficient</td>
+<td>Deterministic forecast skill</td>
+</tr>
+</tbody>
+</table>
+<h2 id="reference-baselines">Reference Baselines</h2>
+<p>All innovations are compared against the following reference
+capabilities:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Baseline</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>SWE Bias</strong></td>
-<td>Mean bias in catchment-averaged SWE estimates</td>
+<td><strong>NOAA CPC</strong></td>
+<td>Climate Prediction Center seasonal outlooks</td>
 </tr>
 <tr class="even">
-<td><strong>Peak SWE Error</strong></td>
-<td>Accuracy of maximum SWE magnitude</td>
-</tr>
-<tr class="odd">
-<td><strong>Timing Error</strong></td>
-<td>Accuracy of peak SWE date</td>
-</tr>
-<tr class="even">
-<td><strong>Melt Rate</strong></td>
-<td>Accuracy of snow ablation rate</td>
+<td><strong>NMME</strong></td>
+<td>North American Multi-Model Ensemble</td>
 </tr>
 </tbody>
 </table>
-<h2 id="reference-baselines">Reference Baselines</h2>
-<p>Reference capabilities will be determined during protocol
-development.</p>
 <h2 id="results-summary">Results Summary</h2>
 <p>Results from evaluated innovations will be displayed here when the
 protocol is finalized and submissions are processed.</p>

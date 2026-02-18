@@ -28,7 +28,7 @@
             
             
             
-            <a href="../p1/index.html">P1 - dly flow sim</a>
+            <a href="../../protocols/p1/index.html" class="active">P1 - dly flow sim</a>
             
             
             
@@ -36,7 +36,7 @@
             
             
             
-            <a href="../p2/index.html">P2 - protocol 2</a>
+            <a href="../../protocols/p2/index.html">P2 - 1-7 day forecasting</a>
             
             
             
@@ -44,7 +44,39 @@
             
             
             
-            <a href="../p3/index.html">P3 - protocol 3</a>
+            <a href="../../protocols/p3/index.html">P3 - catchment SWE</a>
+            
+            
+            
+            
+            
+            
+            
+            <a href="../../protocols/p4/index.html">P4 - water supply</a>
+            
+            
+            
+            
+            
+            
+            
+            <a href="../../protocols/p5/index.html">P5 - seasonal climate</a>
+            
+            
+            
+            
+            
+            
+            
+            <a href="../../protocols/p6/index.html">P6 - sub-seasonal</a>
+            
+            
+            
+            
+            
+            
+            
+            <a href="../../protocols/p7/index.html">P7 - point SWE</a>
             
             
             
@@ -56,7 +88,7 @@
             <h3 class="sidebar-subheading">P1 Pages</h3>
             <a href="./index.html">Elements</a>
             <a href="./results.html">Results</a>
-            <a href="./analyses.html">Analyses</a>
+            <a href="./analyses.html" class="active">Analyses</a>
             
         </aside>
 
@@ -67,80 +99,68 @@
             <span class="badge badge-active">Active</span>
             
 
-            <p><strong>Status:</strong> Active</p>
-<hr />
-<p>Analysis visualizations for Protocol 1 evaluate streamflow simulation
+            
+
+            
+
+            <p>Analysis visualizations for Protocol 1 evaluate streamflow simulation
 performance across CAMELS catchments using multiple diagnostic
 approaches.</p>
-<div class="analysis-row">
-<section id="skill-by-location" class="analysis-text">
-<h3>Skill by Location</h3>
-<p>Spatial distribution of model skill across the CAMELS catchment
-domain. This analysis shows how model performance varies geographically,
-identifying regions where models perform well or poorly relative to
-observed streamflow.</p>
-<p>Performance is typically evaluated using KGE or NSE, with results
-mapped to catchment locations to reveal spatial patterns in prediction
-accuracy.</p>
-</section>
-<div class="analysis-image">
-<p><img src="../../resources/data/hydrology-logo-no-text.png" alt="Skill by Location Plot"></p>
-</div>
-</div>
-<div class="analysis-row">
-<section id="skill-by-lead-time" class="analysis-text">
-<h3>Skill by Lead Time</h3>
-<p>For forecast evaluations, this analysis shows how prediction skill
-degrades as lead time increases. Short-term forecasts typically show
-higher skill than longer-range predictions.</p>
-<p>This diagnostic helps identify the practical forecast horizon for
-different modeling approaches and catchment types.</p>
-</section>
-<div class="analysis-image">
-<p><img src="../../resources/data/hydrology-logo-no-text.png" alt="Skill by Lead Time Plot"></p>
-</div>
-</div>
-<div class="analysis-row">
-<section id="model-comparison" class="analysis-text">
-<h3>Model Comparison</h3>
-<p>Direct comparison between reference baselines (NWS RFC
-SAC-SMA/Snow17, NWM 3.0, Nextgen NWM) and experimental models. Scatter
-plots and performance distributions show relative strengths and
-weaknesses of each approach.</p>
-<p>Results help identify which models outperform baselines and under
-what conditions.</p>
-</section>
-<div class="analysis-image">
-<p><img src="../../resources/data/hydrology-logo-no-text.png" alt="Model Comparison Plot"></p>
-</div>
-</div>
-<div class="analysis-row">
-<section id="bias-distribution-by-catchment" class="analysis-text">
-<h3>Bias Distribution by Catchment</h3>
-<p>Analysis of systematic over- or under-prediction across catchments.
-Relative bias (rBias) distributions reveal whether models consistently
-over-predict or under-predict streamflow volumes.</p>
-<p>Understanding bias patterns helps identify model calibration issues
-or structural deficiencies.</p>
-</section>
-<div class="analysis-image">
-<p><img src="../../resources/data/hydrology-logo-no-text.png" alt="Bias Distribution Plot"></p>
-</div>
-</div>
-<div class="analysis-row">
-<section id="peak-flow-timing-analysis" class="analysis-text">
-<h3>Peak Flow Timing Analysis</h3>
-<p>Evaluation of model performance in predicting the timing and
-magnitude of peak flow events. This analysis is critical for flood
-forecasting applications.</p>
-<p>Metrics include peak flow magnitude error, timing offset, and
-cumulative flow volume during high-flow periods.</p>
-</section>
-<div class="analysis-image">
-<p><img src="../../resources/data/hydrology-logo-no-text.png" alt="Peak Flow Timing Plot"></p>
-</div>
-</div>
 
+
+            
+            
+            <div class="analysis-row">
+            <div class="analysis-text">
+            <h3>Skill by Location</h3>
+            <p>Spatial distribution of model skill across the CAMELS catchment domain. This analysis shows how model performance varies geographically, identifying regions where models perform well or poorly relative to observed streamflow. Performance is typically evaluated using KGE or NSE, with results mapped to catchment locations to reveal spatial patterns in prediction accuracy.</p>
+            </div>
+            <div class="analysis-image">
+            <img src="../../../../resources/data/hydrology-logo-no-text.png" alt="Skill by Location Plot">
+            </div>
+            </div>
+            
+            <div class="analysis-row">
+            <div class="analysis-text">
+            <h3>Skill by Lead Time</h3>
+            <p>For forecast evaluations, this analysis shows how prediction skill degrades as lead time increases. Short-term forecasts typically show higher skill than longer-range predictions. This diagnostic helps identify the practical forecast horizon for different modeling approaches and catchment types.</p>
+            </div>
+            <div class="analysis-image">
+            <img src="../../../../resources/data/hydrology-logo-no-text.png" alt="Skill by Lead Time Plot">
+            </div>
+            </div>
+            
+            <div class="analysis-row">
+            <div class="analysis-text">
+            <h3>Model Comparison</h3>
+            <p>Direct comparison between reference baselines (NWS RFC SAC-SMA/Snow17, NWM 3.0, Nextgen NWM) and experimental models. Scatter plots and performance distributions show relative strengths and weaknesses of each approach. Results help identify which models outperform baselines and under what conditions.</p>
+            </div>
+            <div class="analysis-image">
+            <img src="../../../../resources/data/hydrology-logo-no-text.png" alt="Model Comparison Plot">
+            </div>
+            </div>
+            
+            <div class="analysis-row">
+            <div class="analysis-text">
+            <h3>Bias Distribution by Catchment</h3>
+            <p>Analysis of systematic over- or under-prediction across catchments. Relative bias (rBias) distributions reveal whether models consistently over-predict or under-predict streamflow volumes. Understanding bias patterns helps identify model calibration issues or structural deficiencies.</p>
+            </div>
+            <div class="analysis-image">
+            <img src="../../../../resources/data/hydrology-logo-no-text.png" alt="Bias Distribution Plot">
+            </div>
+            </div>
+            
+            <div class="analysis-row">
+            <div class="analysis-text">
+            <h3>Peak Flow Timing Analysis</h3>
+            <p>Evaluation of model performance in predicting the timing and magnitude of peak flow events. This analysis is critical for flood forecasting applications. Metrics include peak flow magnitude error, timing offset, and cumulative flow volume during high-flow periods.</p>
+            </div>
+            <div class="analysis-image">
+            <img src="../../../../resources/data/hydrology-logo-no-text.png" alt="Peak Flow Timing Plot">
+            </div>
+            </div>
+            
+            
 
             
         </main>

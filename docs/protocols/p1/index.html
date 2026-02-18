@@ -28,7 +28,7 @@
             
             
             
-            <a href="../p1/index.html">P1 - dly flow sim</a>
+            <a href="../../protocols/p1/index.html" class="active">P1 - dly flow sim</a>
             
             
             
@@ -36,7 +36,7 @@
             
             
             
-            <a href="../p2/index.html">P2 - protocol 2</a>
+            <a href="../../protocols/p2/index.html">P2 - 1-7 day forecasting</a>
             
             
             
@@ -44,7 +44,39 @@
             
             
             
-            <a href="../p3/index.html">P3 - protocol 3</a>
+            <a href="../../protocols/p3/index.html">P3 - catchment SWE</a>
+            
+            
+            
+            
+            
+            
+            
+            <a href="../../protocols/p4/index.html">P4 - water supply</a>
+            
+            
+            
+            
+            
+            
+            
+            <a href="../../protocols/p5/index.html">P5 - seasonal climate</a>
+            
+            
+            
+            
+            
+            
+            
+            <a href="../../protocols/p6/index.html">P6 - sub-seasonal</a>
+            
+            
+            
+            
+            
+            
+            
+            <a href="../../protocols/p7/index.html">P7 - point SWE</a>
             
             
             
@@ -54,7 +86,7 @@
 
             
             <h3 class="sidebar-subheading">P1 Pages</h3>
-            <a href="./index.html">Elements</a>
+            <a href="./index.html" class="active">Elements</a>
             <a href="./results.html">Results</a>
             <a href="./analyses.html">Analyses</a>
             
@@ -67,78 +99,36 @@
             <span class="badge badge-active">Active</span>
             
 
+            
             <div class="protocol-header">
-<div class="protocol-description">
-<p>Retrospective streamflow simulation performance evaluation across
-multiple verification features. This protocol establishes a standardized
-framework for assessing daily streamflow predictions using CAMELS
-catchments.</p>
-<p><strong>Status:</strong> Active</p>
-</div>
-<div class="protocol-thumbnail">
-<p><img src="../../resources/data/hydrology-logo-no-text.png" alt="Protocol 1 Thumbnail"></p>
-</div>
-</div>
-<h2 id="protocol-elements">Protocol Elements</h2>
-<table>
-<colgroup>
-<col style="width: 40%" />
-<col style="width: 59%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Focus/Objective</strong></td>
-<td>Retrospective streamflow simulation performance across multiple
-verification features</td>
-</tr>
-<tr class="even">
-<td><strong>Observation(s)</strong></td>
-<td>USGS gage measurements of flow at hourly/daily timesteps</td>
-</tr>
-<tr class="odd">
-<td><strong>Reference capabilities (baselines)</strong></td>
-<td>NWS RFC SAC-SMA/Snow17, NWM 3.0 streamflow forecasts, Nextgen-based
-NWM default configuration</td>
-</tr>
-<tr class="even">
-<td><strong>Experimental design</strong></td>
-<td>Spatial domain: CAMELS catchments (516 hourly gages,
-RFC-forecasted); Validation period: 10 years (1990-99); Timesteps:
-daily, 6-hourly, hourly</td>
-</tr>
-<tr class="odd">
-<td><strong>Metrics of performance</strong></td>
-<td>Modified KGE, NSE, ETS for flood thresholds, correlation, rBias,
-RMAE, peak flow magnitude/timing</td>
-</tr>
-<tr class="even">
-<td><strong>Other considerations</strong></td>
-<td>Computational demand, stability of dependencies, operational
-latency, documentation extent, training potential</td>
-</tr>
-<tr class="odd">
-<td><strong>Key references</strong></td>
-<td>See Related Publications below</td>
-</tr>
-<tr class="even">
-<td><strong>Contact(s)</strong></td>
-<td>J. Sturtevant, A. Wood, C. Shen, J. Frame, M. Clark, K. Van
-Werkhoven</td>
-</tr>
-<tr class="odd">
-<td><strong>Metadata</strong></td>
-<td>Institutional association and project lead, versioning, date of
-generation, parameter set/algorithm variation</td>
-</tr>
-</tbody>
-</table>
-<h2 id="additional-details">Additional Details</h2>
+            <div class="protocol-description">
+            <p>Retrospective streamflow simulation performance evaluation across multiple verification features. This protocol establishes a standardized framework for assessing daily streamflow predictions using CAMELS catchments.</p>
+            <p><strong>Status:</strong> Active</p>
+            </div>
+            <div class="protocol-thumbnail">
+            <img src="../../resources/data/hydrology-logo-no-text.png" alt="P1 Thumbnail">
+            </div>
+            </div>
+            
+
+            
+            <h2>Protocol Elements</h2>
+
+            <table>
+            <tr><th>Element</th><th>Description</th></tr>
+            <tr><td><strong>Focus/Objective</strong></td><td>Retrospective streamflow simulation performance across multiple verification features</td></tr>
+            <tr><td><strong>Observation(s)</strong></td><td>USGS gage measurements of flow at hourly/daily timesteps</td></tr>
+            <tr><td><strong>Reference capabilities (baselines)</strong></td><td>NWS RFC SAC-SMA/Snow17, NWM 3.0 streamflow forecasts, Nextgen-based NWM default configuration</td></tr>
+            <tr><td><strong>Experimental design</strong></td><td>Spatial domain: CAMELS catchments (516 hourly gages, RFC-forecasted); Validation period: 10 years (1990-99); Timesteps: daily, 6-hourly, hourly</td></tr>
+            <tr><td><strong>Metrics of performance</strong></td><td>Modified KGE, NSE, ETS for flood thresholds, correlation, rBias, RMAE, peak flow magnitude/timing</td></tr>
+            <tr><td><strong>Other considerations</strong></td><td>Computational demand, stability of dependencies, operational latency, documentation extent, training potential</td></tr>
+            <tr><td><strong>Key references</strong></td><td>See Related Publications below</td></tr>
+            <tr><td><strong>Contact(s)</strong></td><td>J. Sturtevant, A. Wood, C. Shen, J. Frame, M. Clark, K. Van Werkhoven</td></tr>
+            <tr><td><strong>Metadata</strong></td><td>Institutional association and project lead, versioning, date of generation, parameter set/algorithm variation</td></tr>
+            </table>
+            
+
+            <h2 id="additional-details">Additional Details</h2>
 <h3 id="experimental-design">Experimental Design</h3>
 <table>
 <thead>
@@ -195,6 +185,8 @@ href="https://rtiinternational.github.io/teehr/">RTI
 International</a></li>
 </ul>
 
+
+            
 
             
         </main>

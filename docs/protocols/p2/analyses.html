@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analyses - P2 - Coming Soon - CHPT</title>
+    <title>Analyses - P2 - Short-range Streamflow Forecasting - CHPT</title>
     <link rel="stylesheet" href="../../resources/css/style.css">
 </head>
 <body>
@@ -28,7 +28,7 @@
             
             
             
-            <a href="../p1/index.html">P1 - dly flow sim</a>
+            <a href="../../protocols/p1/index.html">P1 - dly flow sim</a>
             
             
             
@@ -36,7 +36,7 @@
             
             
             
-            <a href="../p2/index.html">P2 - protocol 2</a>
+            <a href="../../protocols/p2/index.html" class="active">P2 - 1-7 day forecasting</a>
             
             
             
@@ -44,7 +44,39 @@
             
             
             
-            <a href="../p3/index.html">P3 - protocol 3</a>
+            <a href="../../protocols/p3/index.html">P3 - catchment SWE</a>
+            
+            
+            
+            
+            
+            
+            
+            <a href="../../protocols/p4/index.html">P4 - water supply</a>
+            
+            
+            
+            
+            
+            
+            
+            <a href="../../protocols/p5/index.html">P5 - seasonal climate</a>
+            
+            
+            
+            
+            
+            
+            
+            <a href="../../protocols/p6/index.html">P6 - sub-seasonal</a>
+            
+            
+            
+            
+            
+            
+            
+            <a href="../../protocols/p7/index.html">P7 - point SWE</a>
             
             
             
@@ -56,24 +88,90 @@
             <h3 class="sidebar-subheading">P2 Pages</h3>
             <a href="./index.html">Elements</a>
             <a href="./results.html">Results</a>
-            <a href="./analyses.html">Analyses</a>
+            <a href="./analyses.html" class="active">Analyses</a>
             
         </aside>
 
         <main class="main-content">
-            <h1>Analyses - P2 - Coming Soon</h1>
+            <h1>Analyses - P2 - Short-range Streamflow Forecasting</h1>
 
             
-            <span class="badge badge-planned">Planned</span>
+            <span class="badge badge-active">Active</span>
             
 
-            <p><strong>Status:</strong> Planned</p>
-<hr />
-<p>Analysis visualizations for Protocol 2 will be available when the
-protocol specification is finalized.</p>
-<p>Check back for updates or contact the project team for more
-information about planned analyses.</p>
+            
 
+            
+
+            <h2 id="analysis-types">Analysis Types</h2>
+<p>The following analysis visualizations are used to evaluate
+short-range streamflow forecast performance:</p>
+<h2 id="visualization-methods">Visualization Methods</h2>
+<ul>
+<li><strong>Taylor diagrams</strong> - Combined display of correlation,
+standard deviation ratio, and centered RMS difference</li>
+<li><strong>Skill score heatmaps</strong> - Performance across lead
+times and locations</li>
+<li><strong>Reliability diagrams</strong> - For probabilistic forecasts
+(ensemble systems)</li>
+<li><strong>Time series comparisons</strong> - Event-based performance
+visualization</li>
+</ul>
+
+
+            
+            
+            <div class="analysis-row">
+            <div class="analysis-text">
+            <h3>Skill by Lead Time</h3>
+            <p>Performance metrics (KGE, CRPS, ETS) plotted against forecast lead time (1-7 days) to assess how skill degrades with increasing lead time across different forecasting systems.</p>
+            </div>
+            <div class="analysis-image">
+            <img src="../../resources/data/hydrology-logo-no-text.png" alt="Skill by Lead Time Analysis">
+            </div>
+            </div>
+            
+            <div class="analysis-row">
+            <div class="analysis-text">
+            <h3>Skill by Location</h3>
+            <p>Spatial distribution of forecast performance across the CAMELS and RFC headwater catchment network, identifying regions of stronger or weaker forecast skill.</p>
+            </div>
+            <div class="analysis-image">
+            <img src="../../resources/data/hydrology-logo-no-text.png" alt="Skill by Location Analysis">
+            </div>
+            </div>
+            
+            <div class="analysis-row">
+            <div class="analysis-text">
+            <h3>Model Comparison</h3>
+            <p>Side-by-side comparison of innovations against reference capabilities (RFC, NWM 3.0, NextGen NWM, persistence) using consistent metrics and validation periods.</p>
+            </div>
+            <div class="analysis-image">
+            <img src="../../resources/data/hydrology-logo-no-text.png" alt="Model Comparison Analysis">
+            </div>
+            </div>
+            
+            <div class="analysis-row">
+            <div class="analysis-text">
+            <h3>Peak Flow Analysis</h3>
+            <p>Evaluation of peak flow magnitude and timing accuracy, critical for flood forecasting applications.</p>
+            </div>
+            <div class="analysis-image">
+            <img src="../../resources/data/hydrology-logo-no-text.png" alt="Peak Flow Analysis">
+            </div>
+            </div>
+            
+            <div class="analysis-row">
+            <div class="analysis-text">
+            <h3>Volume Accuracy</h3>
+            <p>Cumulative flow volume accuracy at each lead time (days 1-7) for water management applications.</p>
+            </div>
+            <div class="analysis-image">
+            <img src="../../resources/data/hydrology-logo-no-text.png" alt="Volume Accuracy Analysis">
+            </div>
+            </div>
+            
+            
 
             
         </main>

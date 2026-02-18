@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protocol 2: Coming Soon - CHPT</title>
+    <title>Protocol 2: Short-range Streamflow Forecasting - CHPT</title>
     <link rel="stylesheet" href="../../resources/css/style.css">
 </head>
 <body>
@@ -28,7 +28,7 @@
             
             
             
-            <a href="../p1/index.html">P1 - dly flow sim</a>
+            <a href="../../protocols/p1/index.html">P1 - dly flow sim</a>
             
             
             
@@ -36,7 +36,7 @@
             
             
             
-            <a href="../p2/index.html">P2 - protocol 2</a>
+            <a href="../../protocols/p2/index.html" class="active">P2 - 1-7 day forecasting</a>
             
             
             
@@ -44,7 +44,39 @@
             
             
             
-            <a href="../p3/index.html">P3 - protocol 3</a>
+            <a href="../../protocols/p3/index.html">P3 - catchment SWE</a>
+            
+            
+            
+            
+            
+            
+            
+            <a href="../../protocols/p4/index.html">P4 - water supply</a>
+            
+            
+            
+            
+            
+            
+            
+            <a href="../../protocols/p5/index.html">P5 - seasonal climate</a>
+            
+            
+            
+            
+            
+            
+            
+            <a href="../../protocols/p6/index.html">P6 - sub-seasonal</a>
+            
+            
+            
+            
+            
+            
+            
+            <a href="../../protocols/p7/index.html">P7 - point SWE</a>
             
             
             
@@ -54,86 +86,142 @@
 
             
             <h3 class="sidebar-subheading">P2 Pages</h3>
-            <a href="./index.html">Elements</a>
+            <a href="./index.html" class="active">Elements</a>
             <a href="./results.html">Results</a>
             <a href="./analyses.html">Analyses</a>
             
         </aside>
 
         <main class="main-content">
-            <h1>Protocol 2: Coming Soon</h1>
+            <h1>Protocol 2: Short-range Streamflow Forecasting</h1>
 
             
-            <span class="badge badge-planned">Planned</span>
+            <span class="badge badge-active">Active</span>
             
 
+            
             <div class="protocol-header">
-<div class="protocol-description">
-<p>Protocol 2 is currently under development. Details will be published
-when the protocol specification is finalized.</p>
-<p><strong>Status:</strong> Planned</p>
-</div>
-<div class="protocol-thumbnail">
-<p><img src="../../resources/data/hydrology-logo-no-text.png" alt="Protocol 2 Thumbnail"></p>
-</div>
-</div>
-<h2 id="protocol-elements">Protocol Elements</h2>
+            <div class="protocol-description">
+            <p>Short-range (1-7 day) streamflow forecast performance evaluation across multiple verification features in headwater catchments. This protocol establishes a standardized framework for assessing operational forecast skill against multiple reference capabilities.</p>
+            <p><strong>Status:</strong> Active</p>
+            </div>
+            <div class="protocol-thumbnail">
+            <img src="../../resources/data/hydrology-logo-no-text.png" alt="P2 Thumbnail">
+            </div>
+            </div>
+            
+
+            
+            <h2>Protocol Elements</h2>
+
+            <table>
+            <tr><th>Element</th><th>Description</th></tr>
+            <tr><td><strong>Focus/Objective</strong></td><td>Short-range (1-7 day) streamflow forecast performance across multiple verification features</td></tr>
+            <tr><td><strong>Observation(s)</strong></td><td>Point gage measurements of flow at hourly and daily timesteps</td></tr>
+            <tr><td><strong>Reference capabilities (baselines)</strong></td><td>RFC streamflow forecasts, NWM 3.0 streamflow forecasts, NextGen-based NWM default short-range configuration, Persistence forecast</td></tr>
+            <tr><td><strong>Experimental design</strong></td><td>CAMELS subset + RFC headwater catchments, 2017-2022, 1-7 day leads</td></tr>
+            <tr><td><strong>Metrics of performance</strong></td><td>Peak flow magnitude/timing, modified KGE, cumulative volume, CRPS (ensemble), ETS for flood thresholds</td></tr>
+            <tr><td><strong>Other considerations</strong></td><td>Computational demand, dependency stability, operational latency, documentation extent, forecaster training potential, proprietary dependencies</td></tr>
+            <tr><td><strong>Key references</strong></td><td>Cosgrove et al. 2022 (NWM), McEnery et al. 2005 (AHPS)</td></tr>
+            <tr><td><strong>Contact(s)</strong></td><td>Andy Wood, Josh Sturtevant</td></tr>
+            <tr><td><strong>Metadata</strong></td><td>Version, algorithm variation, parameter set, generation date, author</td></tr>
+            </table>
+            
+
+            <h2 id="additional-details">Additional Details</h2>
+<h3 id="experimental-design">Experimental Design</h3>
 <table>
+<colgroup>
+<col style="width: 42%" />
+<col style="width: 57%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th>Element</th>
-<th>Description</th>
+<th>Parameter</th>
+<th>Specification</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Focus/Objective</strong></td>
-<td>To be determined</td>
+<td><strong>Spatial Domain</strong></td>
+<td>Subset of CAMELS catchments that are forecast by RFC combined with
+additional RFC headwater catchments (up to 5 locations per RFC
+domain)</td>
 </tr>
 <tr class="even">
-<td><strong>Observation(s)</strong></td>
-<td>To be determined</td>
+<td><strong>Validation Period</strong></td>
+<td>5 years of daily hindcasts from approximately 6Z (corresponding to
+RFC initializations), 2017-2022</td>
 </tr>
 <tr class="odd">
-<td><strong>Reference capabilities (baselines)</strong></td>
-<td>To be determined</td>
+<td><strong>Lead Times</strong></td>
+<td>1-7 days</td>
 </tr>
 <tr class="even">
-<td><strong>Experimental design</strong></td>
-<td>To be determined</td>
-</tr>
-<tr class="odd">
-<td><strong>Metrics of performance</strong></td>
-<td>To be determined</td>
-</tr>
-<tr class="even">
-<td><strong>Other considerations</strong></td>
-<td>To be determined</td>
-</tr>
-<tr class="odd">
-<td><strong>Key references</strong></td>
-<td>To be determined</td>
-</tr>
-<tr class="even">
-<td><strong>Contact(s)</strong></td>
-<td>Contact project leads for information</td>
-</tr>
-<tr class="odd">
-<td><strong>Metadata</strong></td>
-<td>Protocol details pending</td>
+<td><strong>Timesteps</strong></td>
+<td>Daily, 6-hourly, hourly</td>
 </tr>
 </tbody>
 </table>
-<h2 id="additional-details">Additional Details</h2>
-<h3 id="experimental-design">Experimental Design</h3>
-<p>Protocol details are under development. Check back for updates or
-contact the project team for more information.</p>
+<h3 id="reference-capabilities">Reference Capabilities</h3>
+<p>The following baseline systems are used for comparison:</p>
+<ol type="1">
+<li><strong>RFC Streamflow Forecasts</strong> - Operational forecasts
+from NWS River Forecast Centers</li>
+<li><strong>NWM 3.0</strong> - NOAA National Water Model version 3.0
+streamflow forecasts</li>
+<li><strong>NextGen NWM</strong> - NextGen-based NWM default short-range
+configuration</li>
+<li><strong>Persistence Forecast</strong> - Simple persistence
+baseline</li>
+</ol>
+<figure>
+<img src="../../resources/data/rfc-forecast-example.png"
+alt="Example short-range streamflow forecast from NOAA SERFC" />
+<figcaption aria-hidden="true">Example short-range streamflow forecast
+from NOAA SERFC</figcaption>
+</figure>
+<p><em>Example short-range streamflow forecast from NOAA’s Southeast
+River Forecast Center (SERFC). NOAA-RFC forecasts serve as a reference
+capability against which to benchmark new innovations.</em></p>
 <h3 id="performance-metrics">Performance Metrics</h3>
-<p>Performance metrics will be defined as part of the protocol
-specification process.</p>
+<ul>
+<li><strong>Peak flow magnitude and timing</strong> - Accuracy of flood
+peak predictions</li>
+<li><strong>Modified KGE</strong> - Kling-Gupta Efficiency of forecast
+flow for each lead time</li>
+<li><strong>Cumulative flow volume</strong> - Volume accuracy at each
+daily lead time (days 1-7)</li>
+<li><strong>CRPS</strong> - Continuous Ranked Probability Score for
+ensemble forecasts</li>
+<li><strong>ETS</strong> - Equitable Threat Score for flow versus
+defined thresholds (e.g., flood stages)</li>
+</ul>
+<p>Scores are also expressed with respect to reference capability
+performance.</p>
+<h3 id="other-considerations">Other Considerations</h3>
+<ul>
+<li>Computational demand of innovation</li>
+<li>Stability of dependencies (method, dataset)</li>
+<li>Potential operational latency</li>
+<li>Extent of existing documentation and published research</li>
+<li>Potential for forecaster training and real-time support</li>
+<li>Dependency on proprietary resources or methods</li>
+</ul>
 <h3 id="related-publications">Related Publications</h3>
-<p>Publications will be listed when the protocol is finalized.</p>
+<ul>
+<li>Cosgrove, B, and many authors including A.W. Wood, 2022. NOAA’s
+National Water Model: Advancing Operational Hydrology Through
+Continental-Scale Modeling. <em>Journal of the American Water Resources
+Association</em> (in review).</li>
+<li>McEnery, J., J. Ingram, Q. Duan, T. Adams, and L. Anderson, 2005:
+NOAA’S ADVANCED HYDROLOGIC PREDICTION SERVICE. <em>Bulletin of the
+American Meteorological Society</em>, 86, 375-386,
+https://doi.org/10.1175/BAMS-86-3-375.</li>
+</ul>
 
+
+            
 
             
         </main>

@@ -1,5 +1,8 @@
 Protocol,Focus,Domain,Status
 P1,Daily Streamflow Simulations,CAMELS catchments,Active
-P2,Coming Soon,TBD,Planned
-P3,Coming Soon,TBD,Pending
-P4,Coming Soon,TBD,Pending
+P2,Short-range Streamflow Forecasting,CAMELS + RFC headwaters,Active
+P3,Catchment Areal SWE Analysis,Western US catchments,Planned
+P4,Seasonal Water Supply Forecasting,Snowmelt basins,Pending
+P5,Seasonal Climate Prediction,HUC4 basins,Planned
+P6,Sub-seasonal Climate Prediction,Basin-scale,Pending
+P7,Point-based SWE Analysis,SNOTEL sites,Pending
