@@ -1,47 +1,23 @@
 # CHPT Website
 
-Mines CIROH Hydrologic Prediction Testbed (CHPT) website.
+Mines CIROH Hydrologic Prediction Testbed (CHPT) website. Pushing to `main` automatically builds and deploys the site to GitHub Pages via [GitHub Actions](.github/workflows/deploy.yml).
 
 ## Project Structure
 
 ```
 .
-├── content/          # Website source (Markdown files + static assets)
+├── content/          # Website source: EDIT THE FILES HERE
 │   ├── index.md      # Homepage
 │   ├── protocols/    # Protocol pages (p1/, p2/, p3/)
 │   ├── results/      # Results pages
 │   └── resources/    # Static assets (CSS, images, data)
 ├── templates/        # Jinja2 HTML templates
-├── docs/             # Generated output (do not edit directly)
+├── .github/workflows/ # CI/CD (build & deploy to GitHub Pages)
+├── docs/             # Generated output (built by CI, do NOT edit directly!)
 ├── config.yml        # Site generator configuration
 ├── Makefile          # Build automation
 └── pyproject.toml    # Python dependencies
 ```
-
-## Prerequisites
-
-- Python 3.12+
-- [uv](https://docs.astral.sh/uv/) package manager
-
-## Setup
-
-Install dependencies:
-
-```bash
-uv sync
-# or
-make dep
-```
-
-## Building the Site
-
-Compile the website:
-
-```bash
-make build
-```
-
-The generated HTML files are written to `docs/`.
 
 ## Development
 
@@ -96,12 +72,32 @@ Note that these code blocks should use backticks ('`') in actual Markdown, singl
 | `aligns`  | Column alignments: `L` (left), `C` (center), `R` (right), `D` (default) |
 | `caption` | Optional table caption                                                  |
 
+## Local Building
+
+### Prerequisites
+
+- Python 3.12+
+- [uv](https://docs.astral.sh/uv/) package manager
+- [Pandoc](https://pandoc.org/installing.html)
+
+### Setup
+
+Install dependencies:
+
+```bash
+make dep
+```
+
+### Building the Site
+
+```bash
+make build
+```
+
+The generated HTML files are written to `docs/`.
+
 ### Cleaning Build Artifacts
 
 ```bash
 make clean
 ```
-
-## Deployment
-
-The site is configured for GitHub Pages. The `docs/` directory contains the built site, and `.nojekyll` disables Jekyll processing.
